@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module Lecture 3 · Data Preparation · International Marketing Strategy</title>
+<meta name="description" content="Data analytics module, Lecture 3 (Shenzhen University, International Marketing Strategy): data preparation — quality, joins, reshaping, cleaning, missing data and panels.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/szu-logo.jpg">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/szu-logo.jpg" alt="Shenzhen University emblem">
+      <span>International Marketing Strategy</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#info">Course Info</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="index.html#module">Data Analytics Module</a>
+      <a href="code.html">Code &amp; Data</a>
+      <a href="index.html#assessment">Assessment</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a class="cta" href="lecture-01.html">Module Lecture 1</a>
+    </div>
+  </div>
+</nav>
+
+<main class="doc">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Course home</a> › <a href="index.html#module">Data analytics module</a> › Lecture 3</p>
+    <h1 class="doc-title">Module Lecture 3 — Data Preparation: Cleaning and Quality</h1>
+    <p class="doc-sub">International Marketing Strategy · Data analytics module · Shenzhen University · 2026</p>
+
+    <div class="hero-actions no-print">
+      <a class="btn btn-primary" href="files/L03-data-preparation-en.pdf">Download slides (English edition · 92 frames)</a>
+      <a class="btn btn-ghost" href="lecture-02.html">← Module Lecture 2</a>
+      <a class="btn btn-gold" href="code.html">Sample data &amp; code</a>
+    </div>
+
+    <div class="grid grid-4" style="margin-top:22px">
+      <div class="card"><div class="k">Format</div><div class="v"><strong>92</strong> frames · 16:9</div></div>
+      <div class="card"><div class="k">Toolchain</div><div class="v">XeLaTeX + Beamer (SZU theme)</div></div>
+      <div class="card"><div class="k">Language</div><div class="v">English</div></div>
+      <div class="card"><div class="k">Figures</div><div class="v">English, reproducible from the Code page</div></div>
+    </div>
+
+    <h3>Lecture outline</h3>
+    <div class="table-wrap"><table>
+      <tbody>
+        <tr><td class="week">Part 1</td><td>Quality overview: the five characteristics (validity, accuracy, completeness, consistency, uniformity of units), grain, layering and data contracts, clean vs transform vs reshape, five rules for reproducible preparation</td></tr>
+        <tr><td class="week">Part 2</td><td>Combine and reshape: append / concat, the four join types and join cardinality, wide ↔ long layouts, pivot / melt / stack / explode / cut</td></tr>
+        <tr><td class="week">Part 3</td><td>Data cleaning: what cleaning is worth, the five cleaning steps (duplicates, structural errors, outliers, missing values, validation) and the cleaning log</td></tr>
+        <tr><td class="week">Part 4</td><td>Missing data: where missingness comes from, MCAR / MAR / MNAR, imputation strategies and their cost</td></tr>
+        <tr><td class="week">Part 5</td><td>Panels: balanced vs unbalanced panels, cleaning and interpolating, Stata against pandas</td></tr>
+        <tr><td class="week">Part 6</td><td>Transform and tools: variable transformations, standardisation, the toolbox and reproducible pipelines</td></tr>
+        <tr><td class="week">Part 7</td><td>Project and wrap-up: the one-page proposal, the quality report template, the 30-item checklist, glossary and references</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Learning objectives</h3>
+    <ul>
+      <li>Describe and quantify the quality of a dataset along five characteristics: validity, accuracy, completeness, consistency and uniformity of units;</li>
+      <li>Use append / concat (adding observations) and merge / join (adding variables) correctly, work out the join cardinality and verify that the key is unique;</li>
+      <li>Move freely between wide and long layouts, and use pivot / melt / stack / explode / cut fluently;</li>
+      <li>Apply the five cleaning steps to duplicates, structural errors, outliers, missing values and validation, and keep an auditable cleaning log;</li>
+      <li>Recognise the three missingness mechanisms MCAR / MAR / MNAR, choose and evaluate an imputation strategy, and state what imputation costs;</li>
+      <li>Diagnose panel balance, complete the variable transformations and write a reproducible preparation pipeline.</li>
+    </ul>
+
+    <h3>Online preview</h3>
+    <p class="note no-print">If the preview does not appear in your browser, use the download button above.</p>
+    <iframe class="pdf-frame no-print" src="files/L03-data-preparation-en.pdf" title="Lecture 3 courseware"></iframe>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h5>International Marketing Strategy</h5>
+        <p style="margin:.3em 0;color:#c9d2dc">Data analytics module · Shenzhen University · 2026</p>
+      </div>
+      <div>
+        <h5>Quick links</h5>
+        <ul>
+          <li><a href="syllabus.html">Syllabus</a></li>
+          <li><a href="index.html#module">Data analytics module</a></li>
+          <li><a href="lecture-02.html">Module Lecture 2 slides</a></li>
+          <li><a href="code.html">Sample data and code</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Dr. Xieer Dai (David)</li>
+          <li><a href="mailto:xieer.dai@szu.edu.cn">xieer.dai@szu.edu.cn</a></li>
+          <li>Office hours: Thursday 16:00–17:30</li>
+          <li>Class: Wed 14:15–15:45 · Thu 10:15–11:40 · Sifang Building South 207</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine">
+      Course home <a href="https://elysium4eva.github.io/marketing/">elysium4eva.github.io/marketing</a> ·
+      GitHub <a href="https://github.com/elysium4eva">@elysium4eva</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
