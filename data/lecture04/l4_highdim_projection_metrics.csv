@@ -1,0 +1,4 @@
+﻿method,trustworthiness(10-NN),interpretability
+PCA,0.751,variance is interpretable (first two components 21.8% + 10.5%)
+t-SNE,0.887,only local structure is readable
+Isomap (UMAP fallback),0.749,"local + global, parameter-sensitive"

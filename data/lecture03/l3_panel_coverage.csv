@@ -1,0 +1,4 @@
+﻿firm_id,periods,observed,T_i,coverage_pct,balanced
+F1,9,9,9,100.0,False
+F2,11,9,11,81.8,True
+F3,8,8,8,100.0,False

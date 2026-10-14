@@ -1,0 +1,501 @@
+﻿respondent_id,city,channel,education,age,income_k,satisfaction,spend_k,revisit
+R0001,Guangzhou,Store,Bachelor,49,12.8,3.0,1.1,False
+R0002,Beijing,Online,Bachelor,36,19.1,4.0,4.48,True
+R0003,Shenzhen,Store,Bachelor,22,11.1,4.0,10.22,False
+R0004,Chengdu,Online,High school or below,39,13.2,4.0,1.38,False
+R0005,Shanghai,Online,Bachelor,38,33.9,5.0,7.1,False
+R0006,Guangzhou,Online,Bachelor,43,9.2,5.0,4.18,False
+R0007,Hangzhou,Online,Bachelor,37,12.0,4.0,7.19,True
+R0008,Shanghai,Online,Bachelor,33,10.1,3.0,4.04,True
+R0009,Beijing,Online,High school or below,50,36.4,4.0,5.32,True
+R0010,Xi'an,Online,High school or below,19,21.6,5.0,3.86,True
+R0011,Shanghai,Phone,Bachelor,33,24.3,3.0,3.01,False
+R0012,Xi'an,Online,Bachelor,40,10.1,5.0,4.35,True
+R0013,Wuhan,Store,Master or above,42,12.7,4.0,6.66,False
+R0014,Beijing,Phone,High school or below,43,17.9,4.0,4.6,True
+R0015,Beijing,Store,Bachelor,46,20.4,5.0,9.77,True
+R0016,Beijing,Store,Bachelor,26,14.0,2.0,7.24,False
+R0017,Shenzhen,Online,High school or below,19,8.6,4.0,3.52,False
+R0018,Beijing,Phone,Bachelor,39,,2.0,10.12,True
+R0019,Shenzhen,Online,Bachelor,39,8.3,3.0,9.89,False
+R0020,Beijing,Online,Bachelor,20,3.3,4.0,2.29,True
+R0021,Shenzhen,Online,Bachelor,28,21.2,5.0,8.71,True
+R0022,Shanghai,Phone,Master or above,29,32.4,5.0,5.77,False
+R0023,Shanghai,Online,High school or below,29,19.6,4.0,1.82,False
+R0024,Beijing,Online,Master or above,21,10.9,3.0,3.33,True
+R0025,Guangzhou,Store,Bachelor,43,9.0,3.0,11.15,True
+R0026,Shenzhen,Phone,Bachelor,59,9.7,3.0,5.45,False
+R0027,Shenzhen,Online,High school or below,41,11.8,5.0,0.96,True
+R0028,Shenzhen,Store,Bachelor,39,11.7,4.0,6.4,True
+R0029,Guangzhou,Online,Master or above,50,13.7,2.0,20.88,False
+R0030,Shanghai,Store,Bachelor,21,10.6,3.0,3.79,True
+R0031,Shenzhen,Store,Bachelor,53,21.2,3.0,1.53,True
+R0032,Shenzhen,Online,Bachelor,29,,3.0,9.82,True
+R0033,Shenzhen,Phone,Bachelor,54,8.1,5.0,17.37,False
+R0034,Beijing,Online,Bachelor,50,19.5,5.0,3.78,False
+R0035,Shenzhen,Store,Bachelor,30,7.9,3.0,5.74,True
+R0036,Shanghai,Store,High school or below,40,29.0,4.0,3.89,False
+R0037,Shenzhen,Online,Bachelor,59,27.3,4.0,2.2,False
+R0038,Chengdu,Store,Bachelor,51,17.1,4.0,2.57,False
+R0039,Wuhan,Phone,Master or above,34,9.9,4.0,7.54,True
+R0040,Shanghai,Online,Bachelor,29,9.4,5.0,6.08,True
+R0041,Chengdu,Store,Bachelor,58,13.9,5.0,1.66,True
+R0042,Shenzhen,Phone,Bachelor,57,19.4,4.0,8.0,True
+R0043,Guangzhou,Online,Bachelor,30,10.0,5.0,16.71,False
+R0044,Chengdu,Online,Bachelor,54,8.1,3.0,5.77,True
+R0045,Shenzhen,Phone,High school or below,18,19.5,3.0,2.85,False
+R0046,Chengdu,Online,Bachelor,18,8.0,4.0,3.5,False
+R0047,Wuhan,Phone,High school or below,44,31.3,5.0,6.25,False
+R0048,Guangzhou,Online,Bachelor,32,22.7,3.0,3.63,False
+R0049,Shanghai,Phone,High school or below,53,3.2,2.0,4.27,False
+R0050,Shenzhen,Online,Bachelor,48,25.3,3.0,1.16,False
+R0051,Shanghai,Store,Bachelor,20,15.5,3.0,1.7,True
+R0052,Beijing,Store,High school or below,43,27.8,1.0,5.49,False
+R0053,Xi'an,Store,Bachelor,59,12.9,4.0,7.0,False
+R0054,Shenzhen,Online,High school or below,25,14.3,4.0,5.82,False
+R0055,Hangzhou,Online,Bachelor,26,11.5,4.0,5.39,False
+R0056,Hangzhou,Phone,High school or below,51,10.7,5.0,2.53,False
+R0057,Guangzhou,Online,Bachelor,21,10.9,4.0,5.46,False
+R0058,Beijing,Online,Bachelor,35,12.9,4.0,5.11,True
+R0059,Shanghai,Store,Bachelor,26,8.3,3.0,4.51,True
+R0060,Shanghai,Store,Bachelor,59,8.1,1.0,3.99,False
+R0061,Xi'an,Online,Master or above,53,13.5,4.0,10.57,False
+R0062,Shenzhen,Online,Bachelor,25,34.7,5.0,4.34,True
+R0063,Shenzhen,Store,Bachelor,41,12.4,4.0,8.23,False
+R0064,Chengdu,Store,Bachelor,35,39.5,3.0,2.96,False
+R0065,Wuhan,Online,Master or above,36,11.5,4.0,3.51,False
+R0066,Hangzhou,Phone,Bachelor,43,32.7,2.0,16.29,True
+R0067,Chengdu,Online,Bachelor,43,4.8,3.0,3.48,False
+R0068,Hangzhou,Store,Bachelor,37,8.0,4.0,4.52,False
+R0069,Shanghai,Online,High school or below,36,8.7,3.0,8.55,True
+R0070,Shenzhen,Store,Bachelor,61,29.3,3.0,3.96,True
+R0071,Shanghai,Store,Bachelor,38,30.0,5.0,4.49,True
+R0072,Beijing,Online,Bachelor,45,29.5,1.0,6.08,False
+R0073,Shenzhen,Online,Bachelor,55,8.0,4.0,3.14,True
+R0074,Shanghai,Online,Bachelor,23,8.4,4.0,9.33,False
+R0075,Shenzhen,Online,High school or below,20,18.3,2.0,3.36,False
+R0076,Guangzhou,Online,Master or above,52,19.7,2.0,9.58,False
+R0077,Xi'an,Online,High school or below,32,13.2,3.0,4.51,False
+R0078,Chengdu,Store,Bachelor,47,9.3,3.0,6.27,False
+R0079,Hangzhou,Store,High school or below,46,14.1,4.0,4.91,False
+R0080,Guangzhou,Online,Bachelor,29,11.5,4.0,4.86,False
+R0081,Beijing,Store,High school or below,41,8.2,4.0,3.06,True
+R0082,Wuhan,Online,High school or below,47,46.5,4.0,7.21,True
+R0083,Shenzhen,Online,Bachelor,40,12.6,4.0,1.76,False
+R0084,Hangzhou,Online,Bachelor,64,16.0,4.0,5.01,True
+R0085,Hangzhou,Online,Bachelor,30,8.6,2.0,2.26,True
+R0086,Beijing,Phone,Bachelor,48,16.8,4.0,13.83,True
+R0087,Shanghai,Phone,Bachelor,20,7.9,3.0,3.31,False
+R0088,Chengdu,Online,High school or below,38,10.4,5.0,7.38,False
+R0089,Guangzhou,Online,High school or below,59,19.9,4.0,1.06,True
+R0090,Hangzhou,Online,Bachelor,28,4.4,3.0,6.08,False
+R0091,Shanghai,Online,High school or below,59,6.7,3.0,22.22,False
+R0092,Shanghai,Store,Master or above,42,7.9,1.0,5.26,False
+R0093,Hangzhou,Store,Bachelor,58,10.8,4.0,2.41,True
+R0094,Beijing,Store,Master or above,26,20.9,4.0,2.44,False
+R0095,Shenzhen,Online,Master or above,64,18.4,4.0,2.84,True
+R0096,Shanghai,Store,High school or below,57,7.2,4.0,1.47,False
+R0097,Guangzhou,Online,Bachelor,47,14.9,5.0,1.52,False
+R0098,Shanghai,Online,Bachelor,28,13.6,4.0,4.45,True
+R0099,Shenzhen,Store,Master or above,35,18.6,5.0,2.63,False
+R0100,Hangzhou,Online,High school or below,18,8.5,1.0,4.85,True
+R0101,Hangzhou,Phone,Bachelor,50,10.8,4.0,4.06,False
+R0102,Guangzhou,Online,High school or below,46,8.3,2.0,13.47,False
+R0103,Shanghai,Online,Bachelor,35,8.2,4.0,6.55,False
+R0104,Guangzhou,Online,Master or above,49,12.6,4.0,7.16,True
+R0105,Shenzhen,Online,High school or below,60,33.5,5.0,1.89,False
+R0106,Chengdu,Phone,High school or below,23,22.9,5.0,5.1,False
+R0107,Shanghai,Online,High school or below,26,16.3,3.0,2.97,False
+R0108,Shenzhen,Online,Bachelor,41,11.4,4.0,12.53,False
+R0109,Chengdu,Phone,Bachelor,33,8.5,4.0,4.72,False
+R0110,Beijing,Phone,Bachelor,48,46.0,3.0,2.15,False
+R0111,Chengdu,Online,Bachelor,53,13.1,4.0,3.77,True
+R0112,Shanghai,Store,High school or below,19,12.5,3.0,4.0,False
+R0113,Beijing,Online,Bachelor,32,28.1,5.0,17.01,True
+R0114,Shenzhen,Online,Bachelor,40,14.7,2.0,11.33,False
+R0115,Beijing,Phone,High school or below,31,6.8,5.0,3.38,True
+R0116,Shanghai,Online,Master or above,20,6.3,4.0,7.41,True
+R0117,Beijing,Store,Bachelor,50,6.9,4.0,5.07,False
+R0118,Guangzhou,Online,Bachelor,52,8.3,4.0,15.45,True
+R0119,Shanghai,Online,High school or below,24,9.8,4.0,4.13,False
+R0120,Beijing,Online,High school or below,54,25.1,4.0,5.07,False
+R0121,Shanghai,Online,Bachelor,57,6.5,4.0,14.99,False
+R0122,Guangzhou,Online,Bachelor,60,9.6,4.0,9.12,True
+R0123,Shanghai,Online,Bachelor,18,7.7,5.0,10.87,True
+R0124,Guangzhou,Store,Bachelor,59,9.1,5.0,3.47,False
+R0125,Shanghai,Online,Bachelor,29,10.8,3.0,6.64,False
+R0126,Hangzhou,Store,Bachelor,30,41.1,4.0,3.56,True
+R0127,Shanghai,Online,High school or below,30,9.2,2.0,25.09,False
+R0128,Shanghai,Phone,Bachelor,18,20.7,2.0,5.93,False
+R0129,Shenzhen,Online,High school or below,39,9.7,3.0,5.11,False
+R0130,Guangzhou,Phone,Master or above,54,14.3,2.0,3.72,True
+R0131,Wuhan,Online,Bachelor,58,19.1,4.0,7.27,False
+R0132,Beijing,Store,Bachelor,25,18.9,4.0,7.42,True
+R0133,Guangzhou,Online,Bachelor,65,6.8,5.0,5.64,False
+R0134,Shanghai,Online,High school or below,40,17.3,1.0,2.47,False
+R0135,Hangzhou,Store,High school or below,57,9.2,4.0,8.3,False
+R0136,Beijing,Online,Master or above,29,7.8,3.0,6.66,True
+R0137,Shanghai,Store,High school or below,55,17.8,4.0,6.65,True
+R0138,Chengdu,Online,Bachelor,20,6.0,4.0,3.9,False
+R0139,Beijing,Online,Bachelor,49,18.2,3.0,7.57,True
+R0140,Chengdu,Online,Bachelor,64,14.3,3.0,15.78,False
+R0141,Shanghai,Store,Bachelor,21,3.1,3.0,6.31,True
+R0142,Shenzhen,Online,Bachelor,37,11.2,5.0,7.07,False
+R0143,Shenzhen,Online,Bachelor,45,14.6,3.0,3.58,True
+R0144,Hangzhou,Online,Bachelor,62,15.5,3.0,7.06,True
+R0145,Shenzhen,Store,High school or below,27,23.3,3.0,1.41,False
+R0146,Beijing,Phone,High school or below,23,15.6,4.0,1.66,False
+R0147,Shanghai,Store,Bachelor,59,13.6,2.0,3.69,True
+R0148,Beijing,Phone,High school or below,47,11.6,4.0,9.84,False
+R0149,Chengdu,Store,Bachelor,62,18.0,4.0,2.2,False
+R0150,Shenzhen,Online,Bachelor,55,14.1,4.0,5.32,True
+R0151,Hangzhou,Online,High school or below,48,16.1,4.0,11.1,False
+R0152,Beijing,Online,High school or below,49,15.6,2.0,3.62,True
+R0153,Shenzhen,Store,High school or below,40,9.6,3.0,8.26,True
+R0154,Shenzhen,Online,High school or below,19,8.7,2.0,3.1,False
+R0155,Wuhan,Online,Master or above,39,6.6,4.0,8.05,False
+R0156,Beijing,Online,Bachelor,57,9.1,4.0,10.28,False
+R0157,Guangzhou,Online,Bachelor,31,11.2,5.0,4.77,False
+R0158,Wuhan,Online,Bachelor,26,12.8,2.0,5.45,True
+R0159,Hangzhou,Store,High school or below,48,19.5,4.0,2.74,True
+R0160,Wuhan,Online,Bachelor,52,12.3,4.0,4.52,False
+R0161,Shenzhen,Phone,Bachelor,56,8.0,4.0,14.13,True
+R0162,Beijing,Online,Bachelor,24,21.1,4.0,5.21,False
+R0163,Hangzhou,Online,High school or below,57,55.3,5.0,3.33,False
+R0164,Guangzhou,Store,Master or above,33,29.0,4.0,2.75,False
+R0165,Chengdu,Store,Bachelor,25,13.2,3.0,23.92,False
+R0166,Beijing,Online,Bachelor,41,13.7,4.0,4.7,True
+R0167,Chengdu,Store,High school or below,41,,4.0,6.83,True
+R0168,Shanghai,Phone,Bachelor,27,6.7,3.0,1.42,True
+R0169,Shenzhen,Online,High school or below,48,18.8,4.0,5.05,False
+R0170,Shanghai,Phone,High school or below,54,15.8,4.0,2.84,True
+R0171,Hangzhou,Store,Bachelor,49,22.0,3.0,4.45,False
+R0172,Shenzhen,Online,High school or below,26,24.3,4.0,1.75,False
+R0173,Hangzhou,Store,High school or below,39,11.5,4.0,8.73,False
+R0174,Chengdu,Online,Master or above,45,5.0,4.0,1.52,False
+R0175,Hangzhou,Phone,Bachelor,52,9.0,2.0,5.64,False
+R0176,Beijing,Phone,Master or above,23,33.1,2.0,12.96,True
+R0177,Shanghai,Store,Bachelor,34,14.4,2.0,2.26,True
+R0178,Beijing,Online,Bachelor,36,11.9,4.0,6.88,False
+R0179,Guangzhou,Online,High school or below,34,21.9,4.0,10.4,False
+R0180,Beijing,Store,High school or below,55,11.1,5.0,5.03,False
+R0181,Wuhan,Store,High school or below,47,16.0,2.0,4.6,False
+R0182,Xi'an,Online,Bachelor,33,25.8,4.0,7.95,False
+R0183,Guangzhou,Online,High school or below,21,24.2,4.0,6.63,False
+R0184,Shenzhen,Phone,Bachelor,26,,2.0,8.0,True
+R0185,Chengdu,Store,Bachelor,21,12.2,4.0,3.77,False
+R0186,Shenzhen,Store,Master or above,23,7.6,3.0,13.06,False
+R0187,Shenzhen,Phone,High school or below,49,6.4,4.0,3.41,True
+R0188,Guangzhou,Store,Bachelor,61,20.2,3.0,3.32,True
+R0189,Shenzhen,Online,Master or above,18,12.8,4.0,3.27,False
+R0190,Shenzhen,Online,Bachelor,23,15.1,3.0,9.94,True
+R0191,Guangzhou,Online,Bachelor,53,16.6,4.0,1.91,False
+R0192,Hangzhou,Store,Master or above,55,9.4,4.0,5.86,False
+R0193,Guangzhou,Store,Master or above,32,16.0,2.0,1.72,True
+R0194,Shanghai,Store,Bachelor,45,4.6,4.0,5.55,True
+R0195,Shanghai,Online,High school or below,50,12.3,4.0,5.27,False
+R0196,Shenzhen,Store,High school or below,39,19.4,3.0,7.95,True
+R0197,Shenzhen,Online,Bachelor,59,19.2,4.0,5.07,False
+R0198,Chengdu,Store,High school or below,45,11.9,1.0,2.47,False
+R0199,Shanghai,Online,Bachelor,41,14.9,3.0,4.47,False
+R0200,Beijing,Phone,High school or below,22,9.5,4.0,5.73,True
+R0201,Beijing,Phone,Bachelor,64,29.9,3.0,4.71,False
+R0202,Shenzhen,Phone,High school or below,64,11.8,2.0,12.45,False
+R0203,Shanghai,Online,Bachelor,59,5.1,4.0,7.26,True
+R0204,Shanghai,Online,High school or below,27,23.5,3.0,20.87,True
+R0205,Guangzhou,Online,High school or below,18,24.4,2.0,1.5,True
+R0206,Guangzhou,Phone,Bachelor,46,12.0,4.0,17.04,False
+R0207,Hangzhou,Phone,High school or below,54,17.8,3.0,4.1,False
+R0208,Hangzhou,Online,Bachelor,23,25.7,5.0,24.01,False
+R0209,Wuhan,Online,High school or below,53,8.6,2.0,5.67,True
+R0210,Guangzhou,Online,Master or above,25,5.5,1.0,4.78,False
+R0211,Beijing,Store,Bachelor,26,8.6,2.0,6.95,False
+R0212,Shanghai,Online,Bachelor,33,15.0,4.0,4.53,False
+R0213,Shenzhen,Store,High school or below,62,9.8,3.0,9.05,False
+R0214,Guangzhou,Store,Bachelor,63,7.4,4.0,6.0,True
+R0215,Beijing,Phone,Master or above,19,5.8,4.0,10.55,True
+R0216,Beijing,Online,Bachelor,59,13.0,4.0,9.07,False
+R0217,Guangzhou,Store,High school or below,47,23.7,3.0,2.59,False
+R0218,Shanghai,Phone,Bachelor,42,18.8,4.0,2.35,False
+R0219,Shenzhen,Online,Bachelor,26,12.1,5.0,5.04,False
+R0220,Hangzhou,Online,Bachelor,30,8.1,4.0,4.67,False
+R0221,Shenzhen,Phone,Bachelor,48,7.5,5.0,5.92,False
+R0222,Shenzhen,Phone,Bachelor,32,11.7,5.0,15.11,False
+R0223,Beijing,Store,High school or below,21,9.4,2.0,2.88,False
+R0224,Wuhan,Online,High school or below,23,8.2,3.0,2.64,True
+R0225,Chengdu,Store,High school or below,45,10.2,3.0,8.05,True
+R0226,Shenzhen,Store,Bachelor,22,5.5,5.0,6.88,True
+R0227,Chengdu,Store,High school or below,26,14.3,1.0,4.38,True
+R0228,Chengdu,Online,Bachelor,62,35.3,5.0,5.72,True
+R0229,Wuhan,Store,Master or above,62,7.2,3.0,3.98,False
+R0230,Guangzhou,Store,High school or below,24,10.6,3.0,10.6,False
+R0231,Hangzhou,Online,Bachelor,55,6.2,3.0,1.38,False
+R0232,Xi'an,Store,Bachelor,22,21.4,4.0,1.48,True
+R0233,Chengdu,Phone,High school or below,64,19.7,4.0,12.75,True
+R0234,Shanghai,Online,Bachelor,43,15.4,4.0,1.34,True
+R0235,Hangzhou,Online,High school or below,51,,4.0,7.97,False
+R0236,Shenzhen,Online,Master or above,41,22.9,2.0,5.96,True
+R0237,Hangzhou,Store,High school or below,62,18.5,3.0,3.04,True
+R0238,Guangzhou,Online,High school or below,21,37.2,5.0,3.92,False
+R0239,Guangzhou,Online,Bachelor,21,21.2,5.0,2.85,False
+R0240,Xi'an,Online,High school or below,33,12.5,3.0,12.98,True
+R0241,Beijing,Store,Master or above,64,15.9,3.0,4.98,False
+R0242,Guangzhou,Online,Bachelor,50,12.9,1.0,2.35,False
+R0243,Beijing,Online,Master or above,58,16.9,5.0,1.97,True
+R0244,Beijing,Online,High school or below,39,8.8,3.0,1.55,False
+R0245,Shanghai,Store,High school or below,39,7.8,4.0,6.64,False
+R0246,Shanghai,Store,Master or above,54,6.5,3.0,9.84,True
+R0247,Guangzhou,Store,Bachelor,59,11.4,4.0,1.19,False
+R0248,Shenzhen,Store,Bachelor,39,8.1,3.0,2.0,True
+R0249,Beijing,Store,Bachelor,40,14.8,2.0,6.01,True
+R0250,Beijing,Online,Bachelor,45,4.2,4.0,13.28,True
+R0251,Shanghai,Online,High school or below,20,15.7,5.0,8.39,False
+R0252,Xi'an,Phone,Bachelor,54,4.9,4.0,9.1,False
+R0253,Guangzhou,Online,Master or above,63,12.9,3.0,6.96,False
+R0254,Guangzhou,Store,Master or above,52,11.7,1.0,13.43,False
+R0255,Shanghai,Online,Master or above,65,32.4,3.0,1.85,True
+R0256,Wuhan,Store,Bachelor,22,8.4,2.0,1.81,True
+R0257,Shenzhen,Online,Bachelor,50,10.1,1.0,7.26,True
+R0258,Shenzhen,Store,Bachelor,54,18.5,5.0,3.11,False
+R0259,Shenzhen,Store,Bachelor,24,34.5,5.0,3.26,False
+R0260,Shenzhen,Online,Bachelor,49,7.9,5.0,2.77,True
+R0261,Wuhan,Phone,High school or below,45,12.4,4.0,2.39,True
+R0262,Shanghai,Online,High school or below,45,7.2,3.0,1.83,False
+R0263,Chengdu,Phone,High school or below,53,11.2,2.0,7.49,True
+R0264,Guangzhou,Online,Bachelor,55,14.4,5.0,6.88,False
+R0265,Guangzhou,Online,Bachelor,55,12.6,3.0,2.73,False
+R0266,Beijing,Online,Master or above,42,14.7,,4.32,False
+R0267,Shenzhen,Online,High school or below,43,47.7,2.0,2.36,True
+R0268,Shenzhen,Online,High school or below,62,11.3,5.0,6.27,False
+R0269,Shenzhen,Online,Master or above,49,11.3,2.0,4.21,True
+R0270,Shenzhen,Phone,Bachelor,18,13.1,5.0,4.62,False
+R0271,Shanghai,Store,Bachelor,19,9.9,4.0,7.23,True
+R0272,Shenzhen,Store,Master or above,18,7.9,4.0,2.14,False
+R0273,Beijing,Phone,Master or above,45,14.6,2.0,5.59,False
+R0274,Hangzhou,Online,High school or below,50,14.4,2.0,5.42,False
+R0275,Shanghai,Phone,Bachelor,28,9.4,5.0,10.05,False
+R0276,Guangzhou,Phone,Bachelor,50,29.7,1.0,7.89,True
+R0277,Chengdu,Store,Bachelor,21,29.5,5.0,12.27,True
+R0278,Beijing,Online,High school or below,19,12.5,5.0,2.36,False
+R0279,Shenzhen,Phone,Master or above,38,15.4,3.0,23.14,False
+R0280,Shanghai,Phone,Bachelor,37,11.6,3.0,4.18,True
+R0281,Beijing,Online,High school or below,43,11.7,5.0,7.95,True
+R0282,Hangzhou,Online,High school or below,42,19.3,5.0,1.52,False
+R0283,Shanghai,Online,Bachelor,45,11.9,4.0,5.5,False
+R0284,Beijing,Online,Bachelor,30,6.2,3.0,8.52,True
+R0285,Guangzhou,Store,Bachelor,40,11.8,4.0,3.75,False
+R0286,Shanghai,Online,Bachelor,46,12.6,4.0,1.65,False
+R0287,Guangzhou,Online,Master or above,41,42.3,3.0,7.8,False
+R0288,Shenzhen,Online,Bachelor,36,25.9,3.0,4.46,True
+R0289,Beijing,Store,Bachelor,33,18.9,,5.9,True
+R0290,Shanghai,Store,Bachelor,60,17.0,1.0,8.95,True
+R0291,Shanghai,Store,High school or below,29,,1.0,2.3,True
+R0292,Guangzhou,Store,Bachelor,52,26.9,3.0,2.73,False
+R0293,Shanghai,Online,High school or below,35,23.7,5.0,18.25,False
+R0294,Guangzhou,Online,High school or below,44,8.0,5.0,3.74,True
+R0295,Chengdu,Online,High school or below,37,11.4,,4.49,True
+R0296,Beijing,Online,Bachelor,52,59.6,4.0,2.56,False
+R0297,Shenzhen,Store,High school or below,34,,2.0,5.03,False
+R0298,Beijing,Online,Bachelor,42,19.0,4.0,5.0,False
+R0299,Chengdu,Online,Bachelor,52,20.4,4.0,2.58,False
+R0300,Chengdu,Phone,High school or below,38,23.2,4.0,12.94,True
+R0301,Shanghai,Online,High school or below,55,21.3,3.0,3.35,True
+R0302,Shenzhen,Store,Bachelor,61,10.7,4.0,3.66,False
+R0303,Shenzhen,Store,Bachelor,46,7.9,4.0,16.0,True
+R0304,Shanghai,Online,Master or above,56,10.6,3.0,2.94,True
+R0305,Beijing,Online,High school or below,32,,5.0,2.6,True
+R0306,Shanghai,Online,Bachelor,30,5.8,4.0,8.15,True
+R0307,Guangzhou,Online,Bachelor,45,5.9,4.0,2.17,False
+R0308,Beijing,Phone,Bachelor,20,12.5,5.0,3.66,False
+R0309,Shenzhen,Online,Master or above,24,7.5,5.0,9.52,False
+R0310,Shenzhen,Store,High school or below,19,25.7,4.0,2.03,True
+R0311,Wuhan,Online,Bachelor,37,8.6,3.0,11.4,False
+R0312,Wuhan,Online,Master or above,44,5.8,3.0,6.42,False
+R0313,Guangzhou,Store,Master or above,21,7.2,5.0,7.77,False
+R0314,Shanghai,Online,High school or below,20,15.7,4.0,1.03,False
+R0315,Beijing,Online,Bachelor,45,9.8,4.0,3.76,True
+R0316,Shenzhen,Store,High school or below,46,6.6,3.0,5.77,True
+R0317,Beijing,Online,High school or below,48,12.0,4.0,4.24,False
+R0318,Shenzhen,Online,Master or above,48,16.5,3.0,1.95,True
+R0319,Shenzhen,Phone,High school or below,22,5.4,4.0,2.41,True
+R0320,Guangzhou,Online,Bachelor,50,19.9,3.0,37.1,False
+R0321,Guangzhou,Store,Bachelor,58,5.6,4.0,4.55,False
+R0322,Hangzhou,Store,Bachelor,30,9.1,3.0,2.51,True
+R0323,Wuhan,Online,High school or below,31,11.2,3.0,5.24,True
+R0324,Beijing,Online,Bachelor,47,22.0,3.0,2.26,True
+R0325,Shenzhen,Online,High school or below,32,12.3,2.0,3.54,False
+R0326,Shenzhen,Online,Bachelor,31,14.0,4.0,13.73,True
+R0327,Shanghai,Store,Bachelor,65,7.2,4.0,4.31,False
+R0328,Shanghai,Store,High school or below,54,12.8,3.0,3.75,True
+R0329,Shanghai,Online,Bachelor,47,5.5,4.0,2.37,False
+R0330,Beijing,Online,Bachelor,25,11.1,5.0,3.05,False
+R0331,Shenzhen,Store,Bachelor,20,21.2,4.0,13.29,False
+R0332,Beijing,Store,Master or above,42,23.9,5.0,4.88,True
+R0333,Beijing,Store,Bachelor,57,13.6,4.0,3.69,True
+R0334,Shenzhen,Store,Bachelor,44,,4.0,4.34,True
+R0335,Hangzhou,Online,Bachelor,44,42.0,4.0,5.16,False
+R0336,Beijing,Online,Bachelor,56,17.9,4.0,4.26,False
+R0337,Hangzhou,Online,Master or above,45,12.4,2.0,5.75,False
+R0338,Shenzhen,Online,Bachelor,31,11.4,4.0,4.94,False
+R0339,Shanghai,Online,Bachelor,18,13.9,2.0,15.03,False
+R0340,Shanghai,Store,Master or above,51,10.6,4.0,18.78,False
+R0341,Beijing,Online,Bachelor,35,32.7,2.0,18.65,False
+R0342,Beijing,Store,High school or below,58,17.4,3.0,1.77,True
+R0343,Guangzhou,Online,Bachelor,64,33.6,5.0,2.6,False
+R0344,Hangzhou,Phone,High school or below,43,10.7,3.0,14.08,False
+R0345,Wuhan,Online,Bachelor,23,,3.0,4.74,True
+R0346,Wuhan,Online,Bachelor,41,14.2,4.0,3.46,False
+R0347,Shanghai,Store,High school or below,22,8.9,2.0,3.25,True
+R0348,Shenzhen,Online,Bachelor,28,10.5,4.0,2.53,False
+R0349,Shenzhen,Online,Master or above,34,23.9,3.0,9.26,True
+R0350,Wuhan,Online,Bachelor,61,27.2,5.0,3.02,False
+R0351,Shenzhen,Store,Bachelor,58,10.6,3.0,2.39,True
+R0352,Chengdu,Online,Bachelor,65,13.2,5.0,1.13,False
+R0353,Beijing,Online,High school or below,50,19.5,4.0,9.72,True
+R0354,Shenzhen,Phone,Bachelor,19,36.9,3.0,3.1,False
+R0355,Guangzhou,Online,High school or below,31,20.8,4.0,0.7,False
+R0356,Beijing,Phone,Master or above,56,9.0,2.0,2.62,False
+R0357,Guangzhou,Online,Bachelor,24,20.2,4.0,3.34,True
+R0358,Hangzhou,Phone,High school or below,51,25.9,4.0,2.5,False
+R0359,Beijing,Phone,Bachelor,41,22.1,3.0,3.17,False
+R0360,Guangzhou,Online,Bachelor,20,17.4,3.0,3.84,False
+R0361,Xi'an,Online,Bachelor,33,8.7,4.0,1.08,False
+R0362,Beijing,Online,Bachelor,19,12.5,5.0,3.53,True
+R0363,Guangzhou,Store,Bachelor,30,16.2,4.0,4.22,True
+R0364,Chengdu,Online,Bachelor,54,7.6,4.0,12.1,True
+R0365,Hangzhou,Store,High school or below,50,18.1,3.0,1.39,True
+R0366,Beijing,Store,Master or above,45,17.7,3.0,3.62,True
+R0367,Shenzhen,Online,Bachelor,46,,2.0,3.62,True
+R0368,Shanghai,Online,Bachelor,45,4.6,3.0,11.29,True
+R0369,Shenzhen,Store,Bachelor,51,7.3,3.0,5.75,False
+R0370,Beijing,Phone,Master or above,64,10.0,4.0,5.21,False
+R0371,Shanghai,Online,High school or below,21,17.5,4.0,1.85,False
+R0372,Shenzhen,Online,Bachelor,31,12.4,4.0,6.02,False
+R0373,Guangzhou,Online,Master or above,30,17.7,1.0,1.83,False
+R0374,Shanghai,Store,High school or below,47,11.1,5.0,4.31,True
+R0375,Guangzhou,Phone,Bachelor,62,12.0,4.0,6.41,False
+R0376,Shenzhen,Online,Bachelor,57,23.3,3.0,1.74,False
+R0377,Shanghai,Phone,Master or above,52,7.1,5.0,19.89,False
+R0378,Chengdu,Online,Master or above,49,20.8,4.0,1.62,False
+R0379,Shanghai,Online,Bachelor,34,12.2,2.0,2.66,True
+R0380,Shanghai,Phone,Bachelor,33,38.3,3.0,5.44,False
+R0381,Guangzhou,Online,Bachelor,32,14.7,3.0,5.47,True
+R0382,Beijing,Phone,Bachelor,60,5.6,2.0,10.75,True
+R0383,Wuhan,Online,High school or below,32,8.7,3.0,5.02,False
+R0384,Chengdu,Online,Bachelor,41,20.8,4.0,1.61,False
+R0385,Shenzhen,Store,High school or below,61,7.7,4.0,2.06,False
+R0386,Shenzhen,Online,High school or below,20,22.0,5.0,3.24,True
+R0387,Beijing,Phone,Master or above,23,11.3,3.0,5.93,False
+R0388,Guangzhou,Online,High school or below,60,7.2,5.0,3.08,False
+R0389,Shanghai,Phone,Bachelor,29,7.0,5.0,4.09,False
+R0390,Guangzhou,Store,High school or below,57,16.4,4.0,9.04,False
+R0391,Shanghai,Online,Bachelor,44,11.5,4.0,5.52,False
+R0392,Shenzhen,Store,High school or below,46,13.3,3.0,11.26,True
+R0393,Guangzhou,Store,Bachelor,58,23.3,3.0,59.75,False
+R0394,Shenzhen,Store,High school or below,57,17.3,4.0,10.3,False
+R0395,Shenzhen,Store,Bachelor,36,9.2,5.0,5.12,False
+R0396,Shenzhen,Store,Bachelor,39,26.3,5.0,3.58,True
+R0397,Guangzhou,Online,Bachelor,61,15.8,4.0,13.9,False
+R0398,Beijing,Store,Master or above,61,25.2,4.0,3.3,True
+R0399,Shanghai,Store,Bachelor,27,31.0,4.0,1.98,False
+R0400,Shenzhen,Store,Bachelor,51,16.6,4.0,2.75,False
+R0401,Shenzhen,Online,High school or below,55,11.7,4.0,9.92,False
+R0402,Guangzhou,Phone,Bachelor,42,8.3,3.0,3.14,False
+R0403,Hangzhou,Store,Bachelor,22,15.7,4.0,4.26,False
+R0404,Chengdu,Online,High school or below,29,10.0,4.0,5.56,False
+R0405,Beijing,Online,High school or below,53,18.7,2.0,4.37,True
+R0406,Hangzhou,Store,High school or below,43,14.8,4.0,2.59,True
+R0407,Shenzhen,Online,Bachelor,51,9.3,,4.3,False
+R0408,Beijing,Store,High school or below,35,32.4,2.0,1.07,True
+R0409,Shenzhen,Online,Bachelor,50,33.7,4.0,4.97,False
+R0410,Guangzhou,Online,Bachelor,46,29.4,3.0,5.52,False
+R0411,Shanghai,Phone,Bachelor,26,17.8,5.0,4.95,True
+R0412,Beijing,Phone,High school or below,60,4.7,2.0,3.84,False
+R0413,Beijing,Phone,High school or below,27,24.4,4.0,4.75,True
+R0414,Guangzhou,Phone,Bachelor,59,23.0,2.0,4.75,False
+R0415,Shenzhen,Online,Bachelor,51,30.3,5.0,1.15,True
+R0416,Shanghai,Phone,High school or below,47,6.1,4.0,3.57,True
+R0417,Beijing,Store,Bachelor,61,20.5,2.0,5.82,False
+R0418,Shenzhen,Phone,Master or above,59,16.8,2.0,2.49,False
+R0419,Beijing,Online,Bachelor,20,35.5,4.0,7.4,True
+R0420,Beijing,Online,Master or above,43,17.4,4.0,3.85,False
+R0421,Shanghai,Store,Bachelor,43,12.5,2.0,9.71,True
+R0422,Wuhan,Phone,High school or below,19,13.9,2.0,4.78,True
+R0423,Beijing,Phone,Bachelor,65,15.3,4.0,9.13,False
+R0424,Beijing,Online,High school or below,26,11.3,3.0,0.94,False
+R0425,Hangzhou,Online,Bachelor,56,17.2,4.0,7.39,False
+R0426,Hangzhou,Store,Bachelor,39,25.8,4.0,4.72,False
+R0427,Shanghai,Phone,Master or above,19,12.7,4.0,1.55,False
+R0428,Chengdu,Store,High school or below,55,21.0,4.0,2.33,False
+R0429,Beijing,Online,Master or above,26,15.3,3.0,15.09,False
+R0430,Beijing,Online,Bachelor,29,32.4,4.0,2.95,False
+R0431,Guangzhou,Online,High school or below,49,20.0,3.0,17.51,True
+R0432,Beijing,Online,Master or above,59,7.9,4.0,9.32,False
+R0433,Hangzhou,Online,High school or below,37,14.5,4.0,1.75,False
+R0434,Beijing,Store,Bachelor,39,16.5,3.0,7.2,False
+R0435,Chengdu,Store,High school or below,38,11.3,2.0,2.89,False
+R0436,Shanghai,Online,High school or below,44,12.6,4.0,3.31,False
+R0437,Shanghai,Online,Bachelor,56,17.2,3.0,1.99,True
+R0438,Shenzhen,Store,Bachelor,39,19.2,4.0,5.05,True
+R0439,Shenzhen,Store,Bachelor,55,5.7,3.0,5.13,False
+R0440,Wuhan,Store,Master or above,46,9.7,1.0,4.72,False
+R0441,Beijing,Online,High school or below,55,11.4,4.0,3.21,False
+R0442,Shanghai,Online,Master or above,55,8.1,3.0,12.27,True
+R0443,Shanghai,Online,High school or below,52,9.4,5.0,3.91,False
+R0444,Shenzhen,Online,Bachelor,38,14.9,2.0,8.81,True
+R0445,Shenzhen,Phone,Bachelor,49,12.4,4.0,2.21,False
+R0446,Shenzhen,Store,Bachelor,56,19.4,5.0,4.79,True
+R0447,Guangzhou,Online,Bachelor,48,14.6,4.0,4.64,False
+R0448,Wuhan,Online,Bachelor,64,17.1,3.0,1.43,True
+R0449,Shenzhen,Online,Bachelor,64,9.6,3.0,9.73,True
+R0450,Beijing,Online,Master or above,32,6.9,5.0,1.78,False
+R0451,Guangzhou,Phone,Bachelor,30,50.2,1.0,13.01,False
+R0452,Shenzhen,Online,Master or above,31,9.7,4.0,3.18,False
+R0453,Shenzhen,Phone,Master or above,24,14.4,4.0,1.42,True
+R0454,Shenzhen,Online,High school or below,60,19.4,3.0,4.43,True
+R0455,Chengdu,Online,Master or above,59,6.5,4.0,3.52,False
+R0456,Beijing,Online,High school or below,64,5.4,4.0,8.5,True
+R0457,Hangzhou,Online,High school or below,43,9.8,4.0,2.07,False
+R0458,Wuhan,Phone,Bachelor,55,19.8,3.0,11.95,True
+R0459,Shenzhen,Store,High school or below,59,9.7,3.0,4.94,True
+R0460,Beijing,Online,Master or above,20,24.5,3.0,5.85,False
+R0461,Shanghai,Store,High school or below,50,18.0,5.0,8.86,True
+R0462,Shanghai,Online,High school or below,38,22.5,4.0,9.98,True
+R0463,Beijing,Online,High school or below,44,9.6,5.0,9.39,False
+R0464,Shenzhen,Phone,Master or above,27,12.7,5.0,1.94,True
+R0465,Shenzhen,Online,Bachelor,50,26.7,4.0,5.63,False
+R0466,Beijing,Store,High school or below,39,18.5,4.0,7.73,False
+R0467,Hangzhou,Store,Bachelor,61,18.4,5.0,6.78,False
+R0468,Xi'an,Store,High school or below,42,2.8,4.0,0.62,False
+R0469,Shanghai,Phone,High school or below,55,10.3,4.0,3.17,True
+R0470,Shanghai,Online,High school or below,23,16.1,4.0,4.99,True
+R0471,Beijing,Store,Bachelor,65,12.2,1.0,4.94,True
+R0472,Shenzhen,Store,Bachelor,63,10.3,4.0,6.75,False
+R0473,Shenzhen,Store,High school or below,33,49.8,1.0,2.92,True
+R0474,Shenzhen,Phone,High school or below,26,28.4,4.0,3.59,False
+R0475,Shanghai,Phone,Bachelor,21,8.6,3.0,1.28,False
+R0476,Guangzhou,Online,Bachelor,47,14.6,5.0,3.42,False
+R0477,Chengdu,Online,Bachelor,33,13.6,5.0,5.11,False
+R0478,Shanghai,Store,Bachelor,45,20.4,3.0,5.71,False
+R0479,Shanghai,Online,Bachelor,47,17.0,5.0,3.09,True
+R0480,Chengdu,Online,Bachelor,44,9.2,4.0,1.98,False
+R0481,Chengdu,Online,Bachelor,49,16.4,4.0,1.34,False
+R0482,Wuhan,Store,Master or above,21,10.1,4.0,7.02,False
+R0483,Hangzhou,Phone,High school or below,29,30.0,3.0,6.29,False
+R0484,Guangzhou,Online,High school or below,49,30.1,5.0,7.47,False
+R0485,Xi'an,Online,High school or below,57,19.1,4.0,4.79,True
+R0486,Shanghai,Online,Bachelor,59,6.2,,2.15,False
+R0487,Shanghai,Online,Master or above,54,11.5,4.0,7.49,False
+R0488,Guangzhou,Store,Bachelor,20,,3.0,7.42,False
+R0489,Wuhan,Store,Bachelor,21,9.6,3.0,4.67,False
+R0490,Shanghai,Online,High school or below,29,14.1,4.0,3.14,True
+R0491,Wuhan,Online,Bachelor,41,7.9,4.0,6.69,False
+R0492,Shanghai,Phone,High school or below,34,23.3,4.0,6.0,True
+R0493,Xi'an,Store,Bachelor,35,6.2,4.0,1.62,True
+R0494,Beijing,Online,High school or below,59,13.6,3.0,6.33,True
+R0495,Shanghai,Online,High school or below,23,20.7,5.0,2.17,False
+R0496,Shenzhen,Store,Bachelor,65,8.1,3.0,1.34,False
+R0497,Guangzhou,Store,Bachelor,59,6.8,4.0,3.86,False
+R0498,Beijing,Store,Bachelor,38,13.8,4.0,6.45,False
+R0499,Shanghai,Phone,High school or below,27,5.7,4.0,24.78,False
+R0500,Shenzhen,Store,Master or above,24,7.6,5.0,8.08,True

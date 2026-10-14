@@ -1,0 +1,9 @@
+﻿check_item
+"Choose a colorblind-friendly palette (Okabe-Ito / viridis, etc.); avoid red-green contrast"
+"Add redundant encoding beyond color (shape, line style, pattern, direct labels)"
+Still distinguishable after grayscale printing (checked in the second panel here)
+Text-vs-background contrast >= 4.5 (>= 3.0 for large text)
+"Font size: >= 18pt body text on a projector, >= 12pt chart annotations"
+Don't convey up/down or good/bad with color alone (red-green is the worst)
+Provide alt text for every chart (one sentence stating the conclusion)
+Interactive charts should offer keyboard-accessible filtering and zoom

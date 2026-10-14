@@ -1,0 +1,4 @@
+numpy>=1.24          # numerical computing: arrays, random numbers, matrix math
+pandas>=2.0          # tabular data: DataFrame CSV I/O, cross-tabs, time series
+matplotlib>=3.7      # plotting: histograms, box plots, heatmaps, spectrograms, network graphs
+pillow>=9.0          # image I/O (matplotlib depends on it to save PNGs)

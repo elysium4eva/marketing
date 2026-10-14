@@ -1,0 +1,21 @@
+﻿element,content,status
+Title,l4_survey_raw.csv consumer satisfaction and repurchase survey (Spring 2026),filled
+Creator,Big Data Analytics course team (synthetic data for teaching),filled
+Identifier,SZU-BDA-2026-L4-SURVEY-01,filled
+Subject,"consumer satisfaction, repurchase intent, channel differences",filled
+Funders,None (built by the course),filled
+Rights,for teaching use; contains no real personal information,filled
+Access,course repository website/data/lecture04/,filled
+Language,English (field names),filled
+Dates,collected 2026-03; published 2026-03-20,filled
+Location,8 cities in China (see the city field),filled
+Methodology,"quota sampling, three channels (online/store/phone), 12-item questionnaire",filled
+Data processing,missing values flagged; top 1% of income winsorized; no imputation,filled
+Sources,course synthetic sample (structure inspired by e-commerce consumer surveys),filled
+File list,"l4_survey_raw.csv, l4_data_dictionary.csv",filled
+File formats,CSV (UTF-8-SIG),filled
+File structure,one row = one respondent (long format),filled
+Variable list,see l4_data_dictionary.csv,filled
+Code lists,"satisfaction 1-5; channel={online,store,phone}",filled
+Versions,v1.0 (2026-03-20),filled
+Checksums,SHA-256 in the release-package README,filled

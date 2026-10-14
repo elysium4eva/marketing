@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Analytics in Marketing · Course Home</title>
+<meta name="description" content="Shenzhen University course home page for Data Analytics in Marketing: syllabus, schedule, lecture slides and assessment.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/szu-logo.jpg">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/szu-logo.jpg" alt="Shenzhen University emblem">
+      <span>Data Analytics in Marketing</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#info">Course Info</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="index.html#lectures">Lectures</a>
+      <a href="code.html">Code &amp; Data</a>
+      <a href="index.html#assessment">Assessment</a>
+      <a href="index.html#reading">Reading</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a class="cta" href="lecture-01.html">Lecture 1 Slides</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner wrap">
+    <p class="eyebrow">Shenzhen University</p>
+    <h1>Data Analytics in Marketing</h1>
+    <h2>Course Home · 2026</h2>
+    <p class="lede">A six-lecture module on the data-analytics side of marketing: from data sourcing,
+       cleaning, description and visualisation to machine learning, and closing with big data
+       applied directly to marketing problems. Every lecture keeps the code, sample data and
+       figures fully reproducible.</p>
+    <ul class="chips">
+      <li>Fall 2026</li>
+      <li><b>6 lectures</b></li>
+      <li>Thursday <b>periods 11–12</b></li>
+      <li>Sifang Building South <b>209</b></li>
+      <li><b>2</b> credits · elective</li>
+      <li>Taught in English</li>
+    </ul>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="lecture-01.html">Lecture 1 Slides →</a>
+      <a class="btn btn-ghost" href="syllabus.html">Syllabus</a>
+      <a class="btn btn-ghost" href="code.html">Sample Data &amp; Code</a>
+      <a class="btn btn-gold" href="files/L01-introduction-en.pdf">Download Lecture 1 (PDF)</a>
+    </div>
+  </div>
+</header>
+
+<section id="info">
+  <div class="wrap">
+    <div class="section-head">
+      <h3>Course Information</h3>
+    </div>
+    <div class="grid grid-3">
+      <div class="card"><div class="k">Course title</div><div class="v">Data Analytics in Marketing</div></div>
+      <div class="card"><div class="k">Instructor</div><div class="v">Xieer Dai (David)</div></div>
+      <div class="card"><div class="k">Email</div><div class="v">Xieer.dai@szu.edu.cn</div></div>
+      <div class="card"><div class="k">Office &amp; hours</div><div class="v">Mingde Building 1310; office hours by appointment</div></div>
+      <div class="card"><div class="k">Time</div><div class="v">Thursday, periods 11–12</div></div>
+      <div class="card"><div class="k">Venue</div><div class="v">Sifang Building South 209</div></div>
+      <div class="card"><div class="k">Credits</div><div class="v">2 (elective, lecture format)</div></div>
+      <div class="card"><div class="k">Language</div><div class="v">English: slides, code comments and reading material are in English</div></div>
+      <div class="card"><div class="k">Prerequisites</div><div class="v">One programming language (Python preferred); basic linear algebra, calculus, probability and statistics; an interest in data analysis</div></div>
+      <div class="card"><div class="k">Platform</div><div class="v">Course cloud drive (handouts, data, code templates); a Python environment; LLM assistants allowed under the course AI policy</div></div>
+      <div class="card"><div class="k">Toolchain</div><div class="v">Python (pandas, NumPy, scikit-learn, matplotlib), SQL, Git; slides built with XeLaTeX + Beamer (SZU theme)</div></div>
+      <div class="card"><div class="k">Assessment</div><div class="v">10% presentation + 90% project; teams of up to two; an AI-use declaration is required with every submission</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h3>Teaching Schedule</h3>
+      <p>Six lectures covering the data-analysis pipeline from raw sourcing to marketing applications.</p>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Week</th><th>Lecture</th><th>Key topics</th><th>Reading / deliverable</th></tr></thead>
+      <tbody>
+        <tr><td class="week">Week 1</td><td class="lec">L1 Introduction <a href="lecture-01.html">slides →</a></td><td>The big-data landscape and the 2026 AI map: DIKW and the 5 V, levels of analytics, the data pipeline and the modern data stack, machine learning 1-2-3; AI 2022–2026 (GPT-5, Claude Opus 4.5, Gemini 3, open-weight frontier), reasoning models and test-time compute, agentic AI and MCP, RAG, compute and energy, the evaluation crisis and hallucination, regulation (EU AI Act, China's AIGC labelling), course and AI policy</td><td>Stanford AI Index 2026; Lecture 1 handout; Assignment 1 set</td></tr>
+        <tr><td class="week">Week 2</td><td class="lec">L2 Data Sourcing</td><td>Foundations of data science: data types (numeric/categorical, cross-section/time-series/panel), structured and unstructured data, sources (internal, open data, third-party DaaS, APIs, scraping), primary data (surveys, interviews, experiments, A/B tests); 2026 topics: data contracts and data products, open table formats, vector databases and embeddings, data compliance, synthetic data and labelling quality, the legal limits of scraping</td><td>Lecture 2 handout; Kaggle Learn; Assignment 1 due</td></tr>
+        <tr><td class="week">Week 3</td><td class="lec">L3 Data Preparation</td><td>Five characteristics of data quality, append/merge/join and join types, a five-step cleaning recipe, missing-data mechanisms (MCAR/MAR/MNAR) and imputation, outlier detection, reproducible preprocessing pipelines</td><td>McKinney ch. 7–8; sample code and data on the Code page</td></tr>
+        <tr><td class="week">Week 4</td><td class="lec">L4 Data Description &amp; Visualization</td><td>Metadata standards, descriptive statistics (central tendency, spread, distribution, correlation), chart choice and the grammar of graphics, Power BI / Tableau dashboards; 2026 topics: AI-assisted charting (text-to-chart), misleading charts, accessibility and narrative visualisation</td><td>Rahlf (2019); Power BI / Tableau Public exercise</td></tr>
+        <tr><td class="week">Week 5</td><td class="lec">L5 Introduction to Machine Learning</td><td>Supervised, unsupervised, self-supervised and reinforcement learning; overfitting and regularisation, bias–variance, train/validation/test and cross-validation, classification and regression metrics; 2026 topics: AutoML versus fine-tuning foundation models, interpretability (SHAP/PDP), MLOps and model cards, a leakage checklist, cost-aware modelling</td><td>Géron (2022) ch. 1–3; project topic note (one page: problem, data, method)</td></tr>
+        <tr><td class="week">Week 6</td><td class="lec">L6 Big Data in Marketing</td><td>Questionnaire design and measurement, conjoint analysis, the customer journey and attribution, recommender systems, pricing and promotion, churn prediction and CLV, A/B and incrementality experiments; 2026 topics: generative marketing content and brand safety, the privacy reset and the end of third-party cookies, conversational commerce, marketing mix models combined with causal inference</td><td>Lecture 6 handout; Palmatier &amp; Sridhar (2017); project report and presentation</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="lectures">
+  <div class="wrap">
+    <div class="section-head">
+      <h3>Lectures &amp; Courseware</h3>
+      <p>Slides are built with XeLaTeX + Beamer (Shenzhen University theme: lychee red #8A0C3C + the university emblem).</p>
+    </div>
+    <div class="lectures">
+      <div class="lecture is-live">
+        <div class="lecture-top"><span class="num">1</span><h4>Introduction: Big Data Analytics and the AI Landscape</h4></div>
+        <ul class="topics">
+          <li>DIKW, the 5&nbsp;V and the levels of analytics</li>
+          <li>The modern data stack and machine learning 1-2-3</li>
+          <li>AI 2022–2026: reasoning models, agents, RAG, regulation</li>
+        </ul>
+        <div class="file-links">
+          <a href="lecture-01.html">Slides page</a>
+          <a href="files/L01-introduction-en.pdf">PDF (82 frames)</a>
+        </div>
+      </div>
+      <div class="lecture">
+        <div class="lecture-top"><span class="num">2</span><h4>Data Sourcing: Foundations of Data Science</h4></div>
+        <ul class="topics">
+          <li>Data types and structured vs unstructured data</li>
+          <li>Internal, open and third-party sources; APIs and scraping</li>
+          <li>Surveys, interviews, experiments and A/B tests</li>
+        </ul>
+        <div class="file-links"><span class="tag tag-soon">slides in preparation</span></div>
+      </div>
+      <div class="lecture">
+        <div class="lecture-top"><span class="num">3</span><h4>Data Preparation</h4></div>
+        <ul class="topics">
+          <li>Quality profiling, joins, cleaning and imputation</li>
+          <li>Outlier detection and reproducible pipelines</li>
+          <li>Sample code and data on the Code page</li>
+        </ul>
+        <div class="file-links"><span class="tag tag-soon">slides in preparation</span></div>
+      </div>
+      <div class="lecture">
+        <div class="lecture-top"><span class="num">4</span><h4>Data Description and Visualization</h4></div>
+        <ul class="topics">
+          <li>Descriptive statistics and chart choice</li>
+          <li>Dashboards, misleading charts, accessibility</li>
+          <li>Interactive figures on the Code page</li>
+        </ul>
+        <div class="file-links"><span class="tag tag-soon">slides in preparation</span></div>
+      </div>
+      <div class="lecture">
+        <div class="lecture-top"><span class="num">5</span><h4>Introduction to Machine Learning</h4></div>
+        <ul class="topics">
+          <li>Learning paradigms and the modelling ladder</li>
+          <li>Bias–variance, validation, metrics and tuning</li>
+          <li>Interpretability, MLOps and leakage</li>
+        </ul>
+        <div class="file-links"><span class="tag tag-soon">slides in preparation</span></div>
+      </div>
+      <div class="lecture">
+        <div class="lecture-top"><span class="num">6</span><h4>Big Data in Marketing</h4></div>
+        <ul class="topics">
+          <li>Conjoint analysis, attribution and recommendation</li>
+          <li>Pricing, churn and customer lifetime value</li>
+          <li>Generative content, privacy and marketing mix models</li>
+        </ul>
+        <div class="file-links"><span class="tag tag-soon">slides in preparation</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="assessment" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h3>Assessment</h3>
+    </div>
+    <div class="grid grid-2">
+      <div class="card">
+        <h4>Grading</h4>
+        <p>10% class presentation + 90% research project (choose three of four big-data analytics projects; teams of up to two). The report must include the main steps, the methods, the code, the basic results and their interpretation.</p>
+      </div>
+      <div class="card">
+        <h4>AI use declaration</h4>
+        <p>Every submission must declare the AI tools used (model name, version, date), their purpose, the key prompts, and how the output was verified. Submitting unverified model output is academic misconduct; declaring proper use costs no marks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reading">
+  <div class="wrap">
+    <div class="section-head">
+      <h3>Textbooks and References</h3>
+    </div>
+    <div class="grid grid-3">
+      <div class="card"><h4>Core texts</h4><p>McKinney (2018) <em>Python for Data Analysis</em>; Géron (2022) <em>Hands-On Machine Learning</em>; Chen Qiang (2021) <em>Machine Learning and Python Applications</em>.</p></div>
+      <div class="card"><h4>Marketing analytics</h4><p>Palmatier &amp; Sridhar (2017) <em>Marketing Strategy: Based on First Principles and Data Analytics</em>.</p></div>
+      <div class="card"><h4>Annual reports</h4><p>Stanford HAI <em>AI Index Report 2026</em>; McKinsey <em>The State of AI</em>; KPMG <em>AI Pulse</em>.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h5>Data Analytics in Marketing</h5>
+        <p style="margin:.3em 0;color:#c9d2dc">Shenzhen University · Fall 2026</p>
+      </div>
+      <div>
+        <h5>Quick links</h5>
+        <ul>
+          <li><a href="syllabus.html">Syllabus</a></li>
+          <li><a href="lecture-01.html">Lecture 1 slides</a></li>
+          <li><a href="code.html">Sample data and code</a></li>
+          <li><a href="files/L01-introduction-en.pdf">Lecture 1 PDF</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Xieer Dai (David)</li>
+          <li><a href="mailto:Xieer.dai@szu.edu.cn">Xieer.dai@szu.edu.cn</a></li>
+          <li>Office: Mingde Building 1310 (by appointment)</li>
+          <li>Class: Thursday 11–12, Sifang Building South 209</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine">
+      Course home <a href="https://elysium4eva.github.io/marketing/">elysium4eva.github.io/marketing</a> ·
+      GitHub <a href="https://github.com/elysium4eva">@elysium4eva</a> ·
+      Slides built with LaTeX Beamer (Shenzhen University theme)
+    </div>
+  </div>
+</footer>
+</body>
+</html>

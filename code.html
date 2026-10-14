@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Data &amp; Visualisation Programs · Data Analytics in Marketing</title>
+<meta name="description" content="Course page for Data Analytics in Marketing at Shenzhen University: syllabus, schedule, lecture slides and assessment.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/szu-logo.jpg">
+
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/szu-logo.jpg" alt="Shenzhen University logo">
+      <span>Data Analytics in Marketing</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#info">Course info</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="index.html#lectures">Lectures &amp; slides</a>
+      <a href="code.html">Samples &amp; code</a>
+      <a href="index.html#assessment">Assessment</a>
+      <a href="index.html#reading">Reading</a>
+      <a href="https://elysium4eva.github.io/project/" target="_blank" rel="noopener">Past projects</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a class="cta" href="lecture-01.html">Lecture 1 slides</a>
+    </div>
+  </div>
+</nav>
+
+<main class="doc">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Course home</a> › <a href="index.html#lectures">Lectures &amp; slides</a> › Sample data &amp; visualisation programs</p>
+    <h1 class="doc-title">Sample Data &amp; Visualisation Programs</h1>
+    <p class="doc-sub">Data Analytics in Marketing · Companion sample page for Lecture 2 “Data Types”, Lecture 3 “Data Preparation” and Lecture 4 “Data Description and Visualisation” · Fall 2026</p>
+
+    <div class="hero-actions no-print">
+      <a class="btn btn-primary" href="#lecture02">Lecture 2 · Data Types</a>
+      <a class="btn btn-primary" href="#lecture03">Lecture 3 · Data Preparation</a>
+      <a class="btn btn-primary" href="#lecture04">Lecture 4 · Description &amp; Visualisation</a>
+      <a class="btn btn-ghost" href="lecture-01.html">Slides PDF (L1)</a>
+      <span class="btn btn-ghost" style="opacity:.5;pointer-events:none">Slides PDF (L2) · in preparation</span>
+      <span class="btn btn-ghost" style="opacity:.5;pointer-events:none">Slides PDF (L3) · in preparation</span>
+      <span class="btn btn-ghost" style="opacity:.5;pointer-events:none">Slides PDF (L4) · in preparation</span>
+    </div>
+
+    <h3 id="lecture02">Lecture 2 · Data Types samples (10 programs, line-by-line comments)</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Slide</th><th>Data type</th><th>Program (line-by-line comments)</th><th>Sample data</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="week">Frame 10</td>
+          <td><b>Numeric data (continuous / discrete)</b><br><span class="note">Histograms and box plots (outliers) of daily log returns and trading volume over 800 trading days, plus the discrete count distribution of daily orders.</span></td>
+          <td><a href="code/01_datatype_numeric.py">01_datatype_numeric.py</a></td>
+          <td><a href="data/numeric_samples.csv">numeric_samples.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 12</td>
+          <td><b>Categorical data (nominal / ordinal)</b><br><span class="note">Frequency bar charts of industry (nominal, 6 categories) and credit rating (ordinal, AAA–C), plus an industry × rating cross heatmap.</span></td>
+          <td><a href="code/02_datatype_categorical.py">02_datatype_categorical.py</a></td>
+          <td><a href="data/categorical_samples.csv">categorical_samples.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 13</td>
+          <td><b>Structured / semi-structured / unstructured</b><br><span class="note">Side-by-side comparison of three forms: a table with fixed fields, nested JSON with optional fields, and natural-language text without fields.</span></td>
+          <td><a href="code/10_datatype_structured_unstructured.py">10_datatype_structured_unstructured.py</a></td>
+          <td><a href="data/structured_orders.csv">structured_orders.csv</a>, <a href="data/semistructured_orders.json">semistructured_orders.json</a>, <a href="data/unstructured_note.txt">unstructured_note.txt</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 15</td>
+          <td><b>Text data</b><br><span class="note">Top-15 term frequencies after tokenising 20 financial news briefs, plus per-document character counts and the length distribution (which drive truncation and padding decisions).</span></td>
+          <td><a href="code/03_datatype_text.py">03_datatype_text.py</a></td>
+          <td><a href="data/text_samples.csv">text_samples.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 16</td>
+          <td><b>Image data</b><br><span class="note">A mosaic of 3 classes × 4 grayscale 32×32 samples, three-channel decomposition of a colour image, and pixel intensity distributions.</span></td>
+          <td><a href="code/04_datatype_image.py">04_datatype_image.py</a></td>
+          <td><a href="data/image_samples.npy">image_samples.npy</a>, <a href="data/image_labels.npy">image_labels.npy</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 17</td>
+          <td><b>Audio data</b><br><span class="note">8 kHz, 1-second pure tone / chirp / amplitude-modulated noise: time-domain waveforms, short-time Fourier spectrograms and envelopes.</span></td>
+          <td><a href="code/05_datatype_audio.py">05_datatype_audio.py</a></td>
+          <td><a href="data/audio_tone_440.wav">audio_tone_440.wav</a>, <a href="data/audio_chirp_200_2000.wav">audio_chirp_200_2000.wav</a>, <a href="data/audio_am_noise.wav">audio_am_noise.wav</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 18</td>
+          <td><b>Video data</b><br><span class="note">A 12-frame 48×48 sequence (extracted PNG frames in data/video_frames/), inter-frame difference motion detection and a per-frame brightness signal.</span></td>
+          <td><a href="code/06_datatype_video.py">06_datatype_video.py</a></td>
+          <td><a href="data/video_frames.npy">video_frames.npy</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 19</td>
+          <td><b>Graph / network data</b><br><span class="note">Force-directed layout of a 60-node BA scale-free network (node size and colour encode degree) and a log-log degree distribution.</span></td>
+          <td><a href="code/07_datatype_graph.py">07_datatype_graph.py</a></td>
+          <td><a href="data/graph_edges.csv">graph_edges.csv</a>, <a href="data/graph_nodes.csv">graph_nodes.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 20</td>
+          <td><b>Spatiotemporal trajectory data</b><br><span class="note">3 trajectories × 120 points around Nanshan, Shenzhen: latitude/longitude paths, hexbin spatial density and a speed time series.</span></td>
+          <td><a href="code/08_datatype_spatiotemporal.py">08_datatype_spatiotemporal.py</a></td>
+          <td><a href="data/spatiotemporal_tracks.csv">spatiotemporal_tracks.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 23</td>
+          <td><b>Cross-section / time series / panel</b><br><span class="note">A ranked bar chart for the cross-section, 120 months of CPI with a 12-period moving average, and small multiples for an 8-firm × 10-year panel.</span></td>
+          <td><a href="code/09_datastructure_cross_time_panel.py">09_datastructure_cross_time_panel.py</a></td>
+          <td><a href="data/structure_cross_section.csv">structure_cross_section.csv</a>, <a href="data/structure_time_series.csv">structure_time_series.csv</a>, <a href="data/structure_panel.csv">structure_panel.csv</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+    <p class="note">How to run: <code>pip install -r code/requirements.txt</code> → <code>cd code &amp;&amp; python run_all.py</code>;
+       samples are written to <code>data/</code> and figures to <code>figures/</code>. The random seed is fixed at 20260917, so every run produces exactly the same results.</p>
+
+    <h4>Lecture 2 example figures</h4>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_numeric.png"><img src="figures/fig_numeric.png" alt="Numeric data (continuous / discrete) visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 10 · Numeric data (continuous / discrete) · Program <a href="code/01_datatype_numeric.py">01_datatype_numeric.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_categorical.png"><img src="figures/fig_categorical.png" alt="Categorical data (nominal / ordinal) visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 12 · Categorical data (nominal / ordinal) · Program <a href="code/02_datatype_categorical.py">02_datatype_categorical.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_structured.png"><img src="figures/fig_structured.png" alt="Structured / semi-structured / unstructured visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 13 · Structured / semi-structured / unstructured · Program <a href="code/10_datatype_structured_unstructured.py">10_datatype_structured_unstructured.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_text.png"><img src="figures/fig_text.png" alt="Text data visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 15 · Text data · Program <a href="code/03_datatype_text.py">03_datatype_text.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_image.png"><img src="figures/fig_image.png" alt="Image data visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 16 · Image data · Program <a href="code/04_datatype_image.py">04_datatype_image.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_audio.png"><img src="figures/fig_audio.png" alt="Audio data visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 17 · Audio data · Program <a href="code/05_datatype_audio.py">05_datatype_audio.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_video.png"><img src="figures/fig_video.png" alt="Video data visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 18 · Video data · Program <a href="code/06_datatype_video.py">06_datatype_video.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_graph.png"><img src="figures/fig_graph.png" alt="Graph / network data visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 19 · Graph / network data · Program <a href="code/07_datatype_graph.py">07_datatype_graph.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_spatiotemporal.png"><img src="figures/fig_spatiotemporal.png" alt="Spatiotemporal trajectory data visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 20 · Spatiotemporal trajectory data · Program <a href="code/08_datatype_spatiotemporal.py">08_datatype_spatiotemporal.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/fig_structures.png"><img src="figures/fig_structures.png" alt="Cross-section / time series / panel visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 23 · Cross-section / time series / panel · Program <a href="code/09_datastructure_cross_time_panel.py">09_datastructure_cross_time_panel.py</a></figcaption>
+      </figure>
+
+    <h3 id="lecture03">Lecture 3 · Data Preparation samples (10 programs, line-by-line comments)</h3>
+    <p class="note">How to run: <code>pip install -r code/lecture03/requirements.txt</code> → <code>cd code/lecture03 &amp;&amp; python run_all.py</code>;
+       samples are written to <code>data/lecture03/</code> and figures to <code>figures/lecture03/</code>. The random seed is fixed at 20260317, so every run produces exactly the same results.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Slide</th><th>Preparation topic</th><th>Program (line-by-line comments)</th><th>Sample data</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="week">Frame 15</td>
+          <td><b>Quality profile dashboard</b><br><span class="note">600 rows of dirty orders: 18 duplicate primary keys, 7 spellings of the city, 6 spellings of the payment status, 70 rows with missing quantity — five quality dimensions quantified in one pass.</span></td>
+          <td><a href="code/lecture03/l3_01_quality_profile.py">l3_01_quality_profile.py</a></td>
+          <td><a href="data/lecture03/l3_orders_dirty.csv">l3_orders_dirty.csv</a>, <a href="data/lecture03/l3_quality_scorecard.csv">l3_quality_scorecard.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 22</td>
+          <td><b>Join semantics</b><br><span class="note">inner 5 · left 6 · right 8 · outer 9 · union 10 rows: result tables and row-count changes for the five operations; includes a validate error demonstration.</span></td>
+          <td><a href="code/lecture03/l3_03_join_types_validate.py">l3_03_join_types_validate.py</a></td>
+          <td><a href="data/lecture03/l3_customers.csv">l3_customers.csv</a>, <a href="data/lecture03/l3_orders.csv">l3_orders.csv</a>, <a href="data/lecture03/l3_dataset1.csv">l3_dataset1.csv</a>, <a href="data/lecture03/l3_dataset2.csv">l3_dataset2.csv</a>, <a href="data/lecture03/l3_dataset3.csv">l3_dataset3.csv</a>, <a href="data/lecture03/l3_dataset4.csv">l3_dataset4.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 26</td>
+          <td><b>concat and schema alignment</b><br><span class="note">Order extracts from two periods: naive concatenation gives 9 columns (all hollow) → 7 clean columns after alignment; two assertions on row count and primary key.</span></td>
+          <td><a href="code/lecture03/l3_02_join_concat.py">l3_02_join_concat.py</a></td>
+          <td><a href="data/lecture03/l3_orders_2026Q1.csv">l3_orders_2026Q1.csv</a>, <a href="data/lecture03/l3_orders_2026Q2.csv">l3_orders_2026Q2.csv</a>, <a href="data/lecture03/l3_orders_combined.csv">l3_orders_combined.csv</a>, <a href="data/lecture03/l3_concat_accounting.csv">l3_concat_accounting.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 29</td>
+          <td><b>Pivot tables, crosstabs and binning</b><br><span class="note">crosstab frequencies, pivot_table aggregation, cut equal-width binning and qcut equal-frequency binning (6/6/6/6).</span></td>
+          <td><a href="code/lecture03/l3_04_reshape_toolbox.py">l3_04_reshape_toolbox.py</a></td>
+          <td><a href="data/lecture03/l3_sales_wide.csv">l3_sales_wide.csv</a>, <a href="data/lecture03/l3_sales_long.csv">l3_sales_long.csv</a>, <a href="data/lecture03/l3_sales_pivot.csv">l3_sales_pivot.csv</a>, <a href="data/lecture03/l3_sales_long_enriched.csv">l3_sales_long_enriched.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 30</td>
+          <td><b>Wide / long / pivoted layouts</b><br><span class="note">Three layouts of 4 stores × 6 months, including a lossless wide→long→wide round-trip assertion.</span></td>
+          <td><a href="code/lecture03/l3_04_reshape_toolbox.py">l3_04_reshape_toolbox.py</a></td>
+          <td><a href="data/lecture03/l3_sales_wide.csv">l3_sales_wide.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 38</td>
+          <td><b>Three outlier methods</b><br><span class="note">IQR 22 rows / Z 10 rows / robust Z 17 rows / isolation forest 13 rows; only 10 rows flagged by all four methods; three treatments compared.</span></td>
+          <td><a href="code/lecture03/l3_06_outliers_iqr_z_iforest.py">l3_06_outliers_iqr_z_iforest.py</a></td>
+          <td><a href="data/lecture03/l3_income_outliers.csv">l3_income_outliers.csv</a>, <a href="data/lecture03/l3_outlier_treatment.csv">l3_outlier_treatment.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 41</td>
+          <td><b>Before and after cleaning</b><br><span class="note">600 → 582 rows; missing 70 → 0 (median imputation + missing-indicator column); outliers flagged rather than silently deleted.</span></td>
+          <td><a href="code/lecture03/l3_05_cleaning_pipeline.py">l3_05_cleaning_pipeline.py</a></td>
+          <td><a href="data/lecture03/l3_orders_clean.csv">l3_orders_clean.csv</a>, <a href="data/lecture03/l3_cleaning_log.csv">l3_cleaning_log.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 46</td>
+          <td><b>Structural errors and category normalisation</b><br><span class="note">7 spellings of the city → 2 cities; the alias mapping table is itself a deliverable.</span></td>
+          <td><a href="code/lecture03/l3_05_cleaning_pipeline.py">l3_05_cleaning_pipeline.py</a></td>
+          <td><a href="data/lecture03/l3_city_names_raw.csv">l3_city_names_raw.csv</a>, <a href="data/lecture03/l3_city_names_map.csv">l3_city_names_map.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 52</td>
+          <td><b>Missingness matrices and mechanism bias</b><br><span class="note">Missingness matrices for the MCAR / MAR / MNAR mechanisms and the naive mean bias −0.9% / −14.4% / −5.6%.</span></td>
+          <td><a href="code/lecture03/l3_07_missing_mechanisms.py">l3_07_missing_mechanisms.py</a></td>
+          <td><a href="data/lecture03/l3_missing_bias.csv">l3_missing_bias.csv</a>, <a href="data/lecture03/l3_income_missing_MCAR.csv">l3_income_missing_MCAR.csv</a>, <a href="data/lecture03/l3_income_missing_MAR.csv">l3_income_missing_MAR.csv</a>, <a href="data/lecture03/l3_income_missing_MNAR.csv">l3_income_missing_MNAR.csv</a>, <a href="data/lecture03/l3_missing_panel_sample.csv">l3_missing_panel_sample.csv</a>, <a href="data/lecture03/l3_missing_panel_coverage.csv">l3_missing_panel_coverage.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 57</td>
+          <td><b>Before and after imputation: distributions and relationships</b><br><span class="note">Mean imputation collapses the distribution into a spike; regression / KNN / MICE stay closer to the true distribution; variance shrinkage is clearly visible.</span></td>
+          <td><a href="code/lecture03/l3_08_imputation_compare.py">l3_08_imputation_compare.py</a></td>
+          <td><a href="data/lecture03/l3_income_complete.csv">l3_income_complete.csv</a>, <a href="data/lecture03/l3_income_missing.csv">l3_income_missing.csv</a>, <a href="data/lecture03/l3_imputation_metrics.csv">l3_imputation_metrics.csv</a>, <a href="data/lecture03/l3_imputation_means.csv">l3_imputation_means.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 62</td>
+          <td><b>Balanced panel T=11, n=2</b><br><span class="note">Revenue paths for two firms over 11 months and an individual × time heatmap (every cell is observed).</span></td>
+          <td><a href="code/lecture03/l3_09_panel_balance.py">l3_09_panel_balance.py</a></td>
+          <td><a href="data/lecture03/l3_panel_balanced.csv">l3_panel_balanced.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 68</td>
+          <td><b>Panel heatmaps before and after completion</b><br><span class="note">T1=9 / T2=11 / T3=8 with block missingness → interpolation by individual (2 cells) and flagging; 5 cells cannot be completed because the period does not exist.</span></td>
+          <td><a href="code/lecture03/l3_09_panel_balance.py">l3_09_panel_balance.py</a></td>
+          <td><a href="data/lecture03/l3_panel_unbalanced.csv">l3_panel_unbalanced.csv</a>, <a href="data/lecture03/l3_panel_repaired.csv">l3_panel_repaired.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 72</td>
+          <td><b>Transformation and standardisation effects</b><br><span class="note">Revenue with skewness ≈ 2.7 becomes near-symmetric after log1p; all 12 schema assertions pass.</span></td>
+          <td><a href="code/lecture03/l3_10_transform_assert.py">l3_10_transform_assert.py</a></td>
+          <td><a href="data/lecture03/l3_income_skewed.csv">l3_income_skewed.csv</a>, <a href="data/lecture03/l3_transform_summary.csv">l3_transform_summary.csv</a>, <a href="data/lecture03/l3_schema_report.csv">l3_schema_report.csv</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h4>Lecture 3 example figures</h4>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_quality_profile.png"><img src="figures/lecture03/fig_quality_profile.png" alt="Quality profile dashboard visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 15 · Quality profile dashboard · Program <a href="code/lecture03/l3_01_quality_profile.py">l3_01_quality_profile.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_join_types.png"><img src="figures/lecture03/fig_join_types.png" alt="Join semantics visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 22 · Join semantics · Program <a href="code/lecture03/l3_03_join_types_validate.py">l3_03_join_types_validate.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_reshape_bins.png"><img src="figures/lecture03/fig_reshape_bins.png" alt="Pivot tables, crosstabs and binning visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 29 · Pivot tables, crosstabs and binning · Program <a href="code/lecture03/l3_04_reshape_toolbox.py">l3_04_reshape_toolbox.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_reshape_wide_long.png"><img src="figures/lecture03/fig_reshape_wide_long.png" alt="Wide / long / pivoted layouts visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 30 · Wide / long / pivoted layouts · Program <a href="code/lecture03/l3_04_reshape_toolbox.py">l3_04_reshape_toolbox.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_outliers.png"><img src="figures/lecture03/fig_outliers.png" alt="Three outlier methods visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 38 · Three outlier methods · Program <a href="code/lecture03/l3_06_outliers_iqr_z_iforest.py">l3_06_outliers_iqr_z_iforest.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_cleaning_before_after.png"><img src="figures/lecture03/fig_cleaning_before_after.png" alt="Before and after cleaning visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 41 · Before and after cleaning · Program <a href="code/lecture03/l3_05_cleaning_pipeline.py">l3_05_cleaning_pipeline.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_structural_errors.png"><img src="figures/lecture03/fig_structural_errors.png" alt="Structural errors and category normalisation visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 46 · Structural errors and category normalisation · Program <a href="code/lecture03/l3_05_cleaning_pipeline.py">l3_05_cleaning_pipeline.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_missing_matrix.png"><img src="figures/lecture03/fig_missing_matrix.png" alt="Missingness matrices and mechanism bias visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 52 · Missingness matrices and mechanism bias · Program <a href="code/lecture03/l3_07_missing_mechanisms.py">l3_07_missing_mechanisms.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_imputation_compare.png"><img src="figures/lecture03/fig_imputation_compare.png" alt="Before and after imputation: distributions and relationships visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 57 · Before and after imputation: distributions and relationships · Program <a href="code/lecture03/l3_08_imputation_compare.py">l3_08_imputation_compare.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_panel_balanced.png"><img src="figures/lecture03/fig_panel_balanced.png" alt="Balanced panel T=11, n=2 visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 62 · Balanced panel T=11, n=2 · Program <a href="code/lecture03/l3_09_panel_balance.py">l3_09_panel_balance.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_panel_heatmap.png"><img src="figures/lecture03/fig_panel_heatmap.png" alt="Panel heatmaps before and after completion visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 68 · Panel heatmaps before and after completion · Program <a href="code/lecture03/l3_09_panel_balance.py">l3_09_panel_balance.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture03/fig_transform_scale.png"><img src="figures/lecture03/fig_transform_scale.png" alt="Transformation and standardisation effects visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 72 · Transformation and standardisation effects · Program <a href="code/lecture03/l3_10_transform_assert.py">l3_10_transform_assert.py</a></figcaption>
+      </figure>
+
+    <h3 id="lecture04">Lecture 4 · Data Description and Visualisation samples (13 programs, line-by-line comments)</h3>
+    <p class="note">How to run: <code>pip install -r code/lecture04/requirements.txt</code> → <code>cd code/lecture04 &amp;&amp; python run_all.py</code>;
+       samples are written to <code>data/lecture04/</code>, figures to <code>figures/lecture04/</code> and interactive HTML to <code>figures/lecture04/interactive/</code>.
+       The random seed is fixed at 20260417, so every run produces exactly the same results; everything is done in Python (no Power BI / Tableau).</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Slide</th><th>Visualisation topic</th><th>Program (line-by-line comments)</th><th>Sample data / interactive output</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="week">Frame 13</td>
+          <td><b>Document coverage and data dictionary</b><br><span class="note">500-row survey sample: 20 documentation elements scored one by one (20/20 completed), field non-null rates and an auto-generated data dictionary (9 fields).</span></td>
+          <td><a href="code/lecture04/l4_01_docs_metadata.py">l4_01_docs_metadata.py</a></td>
+          <td><a href="data/lecture04/l4_survey_raw.csv">l4_survey_raw.csv</a>, <a href="data/lecture04/l4_data_dictionary.csv">l4_data_dictionary.csv</a>, <a href="data/lecture04/l4_data_dictionary.md">l4_data_dictionary.md</a>, <a href="data/lecture04/l4_docs_coverage.csv">l4_docs_coverage.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 23</td>
+          <td><b>Robustness of central tendency</b><br><span class="note">1,000 income observations plus 3 outliers: the mean moves +12.5% while the median moves only +0.7%; mean / median / standard deviation / IQR / MAD compared.</span></td>
+          <td><a href="code/lecture04/l4_02_descriptive_stats.py">l4_02_descriptive_stats.py</a></td>
+          <td><a href="data/lecture04/l4_income_skewed.csv">l4_income_skewed.csv</a>, <a href="data/lecture04/l4_descriptive_table.csv">l4_descriptive_table.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 24</td>
+          <td><b>Dispersion and distribution shape</b><br><span class="note">Same mean, different dispersion; three dispersion measures compared; skewness (left-skewed / symmetric / right-skewed); kurtosis (heavy-tailed t(3) / normal / thin-tailed uniform).</span></td>
+          <td><a href="code/lecture04/l4_02_descriptive_stats.py">l4_02_descriptive_stats.py</a></td>
+          <td><a href="data/lecture04/l4_descriptive_table.csv">l4_descriptive_table.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 28</td>
+          <td><b>Five charts for one variable</b><br><span class="note">Histogram, box plot, violin plot, ECDF and stem-and-leaf plot of city GDP: changing the chart type changes the view, and the binning drives the impression.</span></td>
+          <td><a href="code/lecture04/l4_05_chart_zoo.py">l4_05_chart_zoo.py</a></td>
+          <td><a href="data/lecture04/l4_city_gdp.csv">l4_city_gdp.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 37</td>
+          <td><b>Restricted range and correlation</b><br><span class="note">220 country pairs in a gravity model: full-sample Pearson −0.589 / Spearman −0.606, falling to −0.200 / −0.213 once only the nearest 25% of partners are kept.</span></td>
+          <td><a href="code/lecture04/l4_03_correlation_crosstab.py">l4_03_correlation_crosstab.py</a></td>
+          <td><a href="data/lecture04/l4_trade_pairs.csv">l4_trade_pairs.csv</a>, <a href="data/lecture04/l4_correlation_pearson.csv">l4_correlation_pearson.csv</a>, <a href="data/lecture04/l4_correlation_spearman.csv">l4_correlation_spearman.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 38</td>
+          <td><b>Multivariate views</b><br><span class="note">A 60-firm × 8-year panel: correlation-matrix heatmap, scatter coloured by industry, small multiples of industry revenue, and conditional ROA distributions by industry.</span></td>
+          <td><a href="code/lecture04/l4_04_multivariate.py">l4_04_multivariate.py</a></td>
+          <td><a href="data/lecture04/l4_firm_panel.csv">l4_firm_panel.csv</a>, <a href="data/lecture04/l4_conditional_roa.csv">l4_conditional_roa.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 52</td>
+          <td><b>Chart zoo overview</b><br><span class="note">Bar chart, distribution chart, trend chart, scatter plot, correlation matrix, ranked bar chart and network graph, plus a panel with a &quot;pick the chart from the question&quot; rule of thumb.</span></td>
+          <td><a href="code/lecture04/l4_05_chart_zoo.py">l4_05_chart_zoo.py</a></td>
+          <td><a href="data/lecture04/l4_city_gdp.csv">l4_city_gdp.csv</a>, <a href="data/lecture04/l4_category_counts.csv">l4_category_counts.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 64</td>
+          <td><b>Interactive vs static charts</b><br><span class="note">132 months × 4 energy categories: static charts for final reports, interactive HTML (line / scatter / Sankey) for exploration and in-class demonstration.</span></td>
+          <td><a href="code/lecture04/l4_06_plotly_interactive.py">l4_06_plotly_interactive.py</a></td>
+          <td><a href="data/lecture04/l4_energy.csv">l4_energy.csv</a> <a href="figures/lecture04/interactive/energy_trend.html" target="_blank" rel="noopener">Energy trend (interactive) ↗</a> <a href="figures/lecture04/interactive/income_spend.html" target="_blank" rel="noopener">Income scatter (interactive) ↗</a> <a href="figures/lecture04/interactive/energy_sankey.html" target="_blank" rel="noopener">Sankey diagram (interactive) ↗</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 66</td>
+          <td><b>Python dashboard</b><br><span class="note">KPI cards (sample size, satisfaction, repurchase rate, median GDP per capita) + a 2×2 panel; plotly subplots exported as a single-file HTML, replacing BI tools.</span></td>
+          <td><a href="code/lecture04/l4_07_dashboard.py">l4_07_dashboard.py</a></td>
+          <td><a href="data/lecture04/l4_dashboard_kpi.csv">l4_dashboard_kpi.csv</a> <a href="figures/lecture04/interactive/dashboard.html" target="_blank" rel="noopener">Dashboard (interactive) ↗</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 70</td>
+          <td><b>choropleth and symbol maps</b><br><span class="note">31 provincial units and 24 economies: GeoJSON choropleth, total-value bubble map, world choropleth and trade-flow map.</span></td>
+          <td><a href="code/lecture04/l4_08_geo_maps.py">l4_08_geo_maps.py</a></td>
+          <td><a href="data/lecture04/l4_province_gdp.csv">l4_province_gdp.csv</a>, <a href="data/lecture04/l4_country_indicators.csv">l4_country_indicators.csv</a>, <a href="data/lecture04/china_provinces.geojson">china_provinces.geojson</a> <a href="figures/lecture04/interactive/map_world_choropleth.html" target="_blank" rel="noopener">World choropleth (interactive) ↗</a> <a href="figures/lecture04/interactive/map_trade_flows.html" target="_blank" rel="noopener">Trade flows (interactive) ↗</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 72</td>
+          <td><b>Spatial autocorrelation Moran scatter</b><br><span class="note">4-nearest-neighbour weights matrix: Moran's I = 0.659, HH 16 / LL 13 / LH 2 — GDP per capita shows clear positive spatial clustering.</span></td>
+          <td><a href="code/lecture04/l4_08_geo_maps.py">l4_08_geo_maps.py</a></td>
+          <td><a href="data/lecture04/l4_moran.csv">l4_moran.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 79</td>
+          <td><b>Six misleading techniques and their fixes</b><br><span class="note">Truncated y-axis, bubble sized by radius, dual-axis spurious correlation, selective intervals, pie charts for similar shares, and dropped uncertainty: misleading on the top row, corrected on the bottom row.</span></td>
+          <td><a href="code/lecture04/l4_09_misleading.py">l4_09_misleading.py</a></td>
+          <td><a href="data/lecture04/l4_ab_test.csv">l4_ab_test.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 83</td>
+          <td><b>Four views of uncertainty</b><br><span class="note">B=2000 bootstrap resamples: error bars, difference distribution and interval ([−0.0056, +0.0456], straddling 0), a time-series confidence band, and a fan forecast band.</span></td>
+          <td><a href="code/lecture04/l4_10_uncertainty.py">l4_10_uncertainty.py</a></td>
+          <td><a href="data/lecture04/l4_ab_test.csv">l4_ab_test.csv</a>, <a href="data/lecture04/l4_uncertainty_summary.csv">l4_uncertainty_summary.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 85</td>
+          <td><b>Palette and greyscale accessibility</b><br><span class="note">Colour / greyscale comparison for three palettes, perceived luminance distributions and a WCAG contrast matrix (≥4.5 passes), with a 12-item accessibility checklist.</span></td>
+          <td><a href="code/lecture04/l4_11_accessibility.py">l4_11_accessibility.py</a></td>
+          <td><a href="data/lecture04/l4_category_counts.csv">l4_category_counts.csv</a>, <a href="data/lecture04/l4_accessibility_report.csv">l4_accessibility_report.csv</a>, <a href="data/lecture04/l4_accessibility_checklist.csv">l4_accessibility_checklist.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 89</td>
+          <td><b>Three dimensionality-reduction projections</b><br><span class="note">One 12-dimensional customer dataset: PCA (first two components 21.8% + 10.5%), t-SNE and UMAP projections, with a scree plot and neighbourhood fidelity (t-SNE 0.89 / UMAP 0.85 / PCA 0.75).</span></td>
+          <td><a href="code/lecture04/l4_13_highdim.py">l4_13_highdim.py</a></td>
+          <td><a href="data/lecture04/l4_highdim_customers.csv">l4_highdim_customers.csv</a>, <a href="data/lecture04/l4_highdim_projection_metrics.csv">l4_highdim_projection_metrics.csv</a> <a href="figures/lecture04/interactive/embedding_3d.html" target="_blank" rel="noopener">3-D embedding (interactive) ↗</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 93</td>
+          <td><b>Parallel and clustered profiles</b><br><span class="note">Parallel coordinates for 8 standardised features (mean profiles of three groups), a correlation heatmap reordered by hierarchical clustering, and a radar chart included for illustration only.</span></td>
+          <td><a href="code/lecture04/l4_13_highdim.py">l4_13_highdim.py</a></td>
+          <td><a href="data/lecture04/l4_highdim_customers.csv">l4_highdim_customers.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 94</td>
+          <td><b>Model interpretability visualisation</b><br><span class="note">Random forest churn prediction: permutation importance (days since last purchase 0.195, 10 repeats with error bars), PDP average marginal effects and 60 ICE individual curves.</span></td>
+          <td><a href="code/lecture04/l4_13_highdim.py">l4_13_highdim.py</a></td>
+          <td><a href="data/lecture04/l4_highdim_importance.csv">l4_highdim_importance.csv</a></td>
+        </tr>
+        <tr>
+          <td class="week">Frame 98</td>
+          <td><b>Report main figure and captions</b><br><span class="note">Statistical table + four-panel report figure + self-contained captions exported in one pass: axis truncation, missing-data handling, error bars and sample size are all stated in the captions.</span></td>
+          <td><a href="code/lecture04/l4_12_report_pipeline.py">l4_12_report_pipeline.py</a></td>
+          <td><a href="data/lecture04/report/table1_descriptive.csv">report/table1_descriptive.csv</a>, <a href="data/lecture04/report/table2_channel.csv">report/table2_channel.csv</a>, <a href="data/lecture04/report/captions.md">report/captions.md</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h4>Lecture 4 example figures</h4>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_docs_coverage.png"><img src="figures/lecture04/fig_docs_coverage.png" alt="Document coverage and data dictionary visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 13 · Document coverage and data dictionary · Program <a href="code/lecture04/l4_01_docs_metadata.py">l4_01_docs_metadata.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_central_tendency.png"><img src="figures/lecture04/fig_central_tendency.png" alt="Robustness of central tendency visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 23 · Robustness of central tendency · Program <a href="code/lecture04/l4_02_descriptive_stats.py">l4_02_descriptive_stats.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_dispersion_shape.png"><img src="figures/lecture04/fig_dispersion_shape.png" alt="Dispersion and distribution shape visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 24 · Dispersion and distribution shape · Program <a href="code/lecture04/l4_02_descriptive_stats.py">l4_02_descriptive_stats.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_univariate_zoo.png"><img src="figures/lecture04/fig_univariate_zoo.png" alt="Five charts for one variable visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 28 · Five charts for one variable · Program <a href="code/lecture04/l4_05_chart_zoo.py">l4_05_chart_zoo.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_restricted_range.png"><img src="figures/lecture04/fig_restricted_range.png" alt="Restricted range and correlation visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 37 · Restricted range and correlation · Program <a href="code/lecture04/l4_03_correlation_crosstab.py">l4_03_correlation_crosstab.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_multivariate.png"><img src="figures/lecture04/fig_multivariate.png" alt="Multivariate views visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 38 · Multivariate views · Program <a href="code/lecture04/l4_04_multivariate.py">l4_04_multivariate.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_chart_zoo.png"><img src="figures/lecture04/fig_chart_zoo.png" alt="Chart zoo overview visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 52 · Chart zoo overview · Program <a href="code/lecture04/l4_05_chart_zoo.py">l4_05_chart_zoo.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_interactive_vs_static.png"><img src="figures/lecture04/fig_interactive_vs_static.png" alt="Interactive vs static charts visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 64 · Interactive vs static charts · Program <a href="code/lecture04/l4_06_plotly_interactive.py">l4_06_plotly_interactive.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_dashboard.png"><img src="figures/lecture04/fig_dashboard.png" alt="Python dashboard visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 66 · Python dashboard · Program <a href="code/lecture04/l4_07_dashboard.py">l4_07_dashboard.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_map_choropleth_vs_symbol.png"><img src="figures/lecture04/fig_map_choropleth_vs_symbol.png" alt="choropleth and symbol maps visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 70 · choropleth and symbol maps · Program <a href="code/lecture04/l4_08_geo_maps.py">l4_08_geo_maps.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_moran_scatter.png"><img src="figures/lecture04/fig_moran_scatter.png" alt="Spatial autocorrelation Moran scatter visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 72 · Spatial autocorrelation Moran scatter · Program <a href="code/lecture04/l4_08_geo_maps.py">l4_08_geo_maps.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_misleading_pairs.png"><img src="figures/lecture04/fig_misleading_pairs.png" alt="Six misleading techniques and their fixes visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 79 · Six misleading techniques and their fixes · Program <a href="code/lecture04/l4_09_misleading.py">l4_09_misleading.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_uncertainty.png"><img src="figures/lecture04/fig_uncertainty.png" alt="Four views of uncertainty visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 83 · Four views of uncertainty · Program <a href="code/lecture04/l4_10_uncertainty.py">l4_10_uncertainty.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_palette_accessibility.png"><img src="figures/lecture04/fig_palette_accessibility.png" alt="Palette and greyscale accessibility visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 85 · Palette and greyscale accessibility · Program <a href="code/lecture04/l4_11_accessibility.py">l4_11_accessibility.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_highdim_projections.png"><img src="figures/lecture04/fig_highdim_projections.png" alt="Three dimensionality-reduction projections visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 89 · Three dimensionality-reduction projections · Program <a href="code/lecture04/l4_13_highdim.py">l4_13_highdim.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_parallel_cluster.png"><img src="figures/lecture04/fig_parallel_cluster.png" alt="Parallel and clustered profiles visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 93 · Parallel and clustered profiles · Program <a href="code/lecture04/l4_13_highdim.py">l4_13_highdim.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_interpretability.png"><img src="figures/lecture04/fig_interpretability.png" alt="Model interpretability visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 94 · Model interpretability visualisation · Program <a href="code/lecture04/l4_13_highdim.py">l4_13_highdim.py</a></figcaption>
+      </figure>
+      <figure style="margin:0 0 26px">
+        <a href="figures/lecture04/fig_report_panel.png"><img src="figures/lecture04/fig_report_panel.png" alt="Report main figure and captions visualisation" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+        <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 98 · Report main figure and captions · Program <a href="code/lecture04/l4_12_report_pipeline.py">l4_12_report_pipeline.py</a></figcaption>
+      </figure>
+
+    <h3>How to Run</h3>
+    <pre style="background:#f7f3f2;border:1px solid #e3e6ea;border-radius:8px;padding:14px;overflow-x:auto;font-size:13.5px"><code># 1) Install dependencies (Python 3.8+; this course was tested with 3.9)
+pip install -r code/requirements.txt
+pip install -r code/lecture03/requirements.txt
+pip install -r code/lecture04/requirements.txt
+
+# 2) Lecture 2: data types samples (line-by-line comments)
+cd code
+python run_all.py
+
+# 3) Lecture 3: data preparation samples (line-by-line comments)
+cd lecture03
+python run_all.py
+
+# 4) Lecture 4: descriptive statistics and visualisation samples (line-by-line comments)
+cd ../lecture04
+python run_all.py</code></pre>
+    <p class="note">All three lectures use fixed random seeds (L2 20260917, L3 20260317, L4 20260417),
+       so every run produces <b>exactly the same</b> samples and figures. The provincial boundary file for Lecture 4 is downloaded
+       automatically on first run and cached to <code>data/lecture04/china_provinces.geojson</code>; if the network is unavailable,
+       the map falls back to a centroid bubble map and the pipeline still runs to completion.</p>
+
+    <h3>Notes</h3>
+    <ul>
+      <li><b>Line-by-line comments</b>: every line of code in the Lecture 2, Lecture 3 and Lecture 4 programs, as well as the code examples in the slides, carries an explanatory comment;</li>
+      <li><b>Data provenance</b>: all samples are <b>synthesised</b> by the programs (simulated orders, customers, income, city panels, corpora, networks and so on); they contain no real personal data and may be used freely for teaching and Project 1;</li>
+      <li><b>Slide mapping</b>: L2 figures correspond to frames 10, 12, 13, 15–20 and 23; L3 figures correspond to frames 15, 22, 29, 30, 38, 41, 46, 52, 57, 62, 68 and 72;</li>
+      <li><b>Extension</b>: point the data source in <code>l3_01_quality_profile.py</code> at your own table and you immediately get the data quality report required for Project 1.</li>
+    </ul>
+  </div>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h5>Data Analytics in Marketing</h5>
+        <p style="margin:.3em 0;color:#c9d2dc">Data Analytics in Marketing · Fall 2026</p>
+        <p style="margin:.3em 0;color:#c9d2dc">Shenzhen University</p>
+      </div>
+      <div>
+        <h5>Quick links</h5>
+        <ul>
+          <li><a href="syllabus.html">Syllabus</a></li>
+          <li><a href="lecture-01.html">Lecture 1 slides</a></li>
+          <li><span style="opacity:.6">Lecture 2 slides (Data Sourcing) — in preparation</span></li>
+          <li><span style="opacity:.6">Lecture 3 slides (Data Preparation) — in preparation</span></li>
+          <li><span style="opacity:.6">Lecture 4 slides (Data Description and Visualization) — in preparation</span></li>
+          <li><a href="code.html">Sample data &amp; visualisation programs</a></li>
+          <li><a href="syllabus.html">Syllabus (web page)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Xieer Dai (David)</li>
+          <li><a href="mailto:Xieer.dai@szu.edu.cn">Xieer.dai@szu.edu.cn</a></li>
+          <li>Office: Room 1310, Mingde Building (office hours by appointment)</li>
+          <li>Class: Thursday, periods 11–12 · Sifang Building South 209</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine">
+      Course home page <a href="https://elysium4eva.github.io/bigdata">elysium4eva.github.io/bigdata</a> ·
+      GitHub <a href="https://github.com/elysium4eva">@elysium4eva</a> ·
+      Slides built with LaTeX Beamer (Shenzhen University theme) ·
+      Last updated 2026-09-23
+    </div>
+  </div>
+</footer>
+</body>
+</html>

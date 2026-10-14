@@ -1,0 +1,10 @@
+numpy>=1.24          # numerical computing and random numbers (synthetic samples, bootstrap)
+pandas>=2.1          # tables, grouping, crosstabs, and descriptive statistics
+matplotlib>=3.7      # every static figure in the slides (including hand-drawn choropleths and Moran scatter plots)
+seaborn>=0.13        # statistical graphics (quick interfaces for distributions and grouped comparisons)
+scipy>=1.10          # chi-square tests, hierarchical clustering (variable reordering for clustered heatmaps)
+scikit-learn>=1.3    # PCA / t-SNE / random forests / permutation importance / neighborhood trustworthiness
+umap-learn>=0.5      # UMAP dimensionality reduction (high-dimensional projections; falls back to Isomap if not installed)
+plotly>=5.20         # interactive charts, world choropleth, flow maps, and 3D embeddings (exports HTML)
+kaleido>=0.2         # needed to export plotly figures as static images (this lecture uses matplotlib for static figures, optional)
+pillow>=9.0          # image backend

@@ -1,0 +1,10 @@
+﻿field,type,non_null_rate,unique_values,range_or_sample,unit
+respondent_id,str,100.0%,500,"500 categories, e.g. R0001, R0002, R0003",-
+city,str,100.0%,8,"8 categories, e.g. Guangzhou, Beijing, Shenzhen",-
+channel,str,100.0%,3,"3 categories, e.g. Store, Online, Phone",-
+education,str,100.0%,3,"3 categories, e.g. Bachelor, High school or below, Master or above",-
+age,int64,100.0%,48,18.00 ~ 65.00,years
+income_k,float64,97.6%,233,2.80 ~ 59.60,thousand CNY/month
+satisfaction,float64,99.0%,5,1.00 ~ 5.00,1-5 scale
+spend_k,float64,100.0%,404,0.62 ~ 59.75,thousand CNY/month
+revisit,bool,100.0%,2,0.00 ~ 1.00,0/1

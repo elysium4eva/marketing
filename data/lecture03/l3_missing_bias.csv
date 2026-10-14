@@ -1,0 +1,4 @@
+﻿mechanism,missing_rate_pct,observed_mean,bias_vs_truth,bias_pct
+MCAR,27.4,16908.96,-153.78,-0.9
+MAR,24.4,14606.44,-2456.29,-14.4
+MNAR,17.1,16098.84,-963.89,-5.6

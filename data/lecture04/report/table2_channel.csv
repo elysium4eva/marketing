@@ -1,0 +1,4 @@
+﻿channel,n,satisfaction_mean,income_median,repurchase_rate
+Online,261,3.7,13.2,0.375
+Phone,86,3.488,12.6,0.384
+Store,153,3.408,12.8,0.458

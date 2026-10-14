@@ -1,0 +1,6 @@
+﻿metric,point_estimate,ci_lower,ci_upper,n
+Control A · conversion rate,0.1114,0.0946,0.129,1248
+Control A · order value,17.7,15.31,20.27,139
+Treatment B · conversion rate,0.1311,0.112,0.151,1152
+Treatment B · order value,17.42,15.21,19.86,151
+conversion-rate difference (B-A),0.0197,-0.0056,0.0456,2400

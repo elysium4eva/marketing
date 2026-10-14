@@ -1,0 +1,12 @@
+﻿industry,size,mean,count
+Consumer,Medium,0.0759,48
+Consumer,Small,0.0711,56
+Electronics,Large,0.0809,40
+Electronics,Medium,0.0699,32
+Electronics,Small,0.0739,40
+Machinery,Large,0.0805,40
+Machinery,Medium,0.0783,56
+Machinery,Small,0.0721,40
+Pharmaceuticals,Large,0.0708,40
+Pharmaceuticals,Medium,0.0695,40
+Pharmaceuticals,Small,0.0738,48

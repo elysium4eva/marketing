@@ -1,0 +1,4 @@
+﻿palette,min_gray_gap,min_contrast_vs_white,body_text_pass(>=4.5),usable_as_text_color
+matplotlib default,0.005,1.55,False,False
+SZU theme colors,0.006,1.55,False,False
+Okabe-Ito (colorblind-friendly),0.016,1.19,False,False
