@@ -184,3 +184,17 @@ footer .fine{margin-top:22px;padding-top:14px;border-top:1px solid rgba(255,255,
   a{color:#000}
   .table-wrap{box-shadow:none;break-inside:avoid}
 }
+
+/* --- keep the course navigation on a single line ------------------------- */
+.nav-brand span{white-space:nowrap}
+@media (max-width:1500px){
+  .nav-links{gap:0}
+  .nav-links a{padding:8px 8px;font-size:13px}
+}
+@media (max-width:1320px){
+  .nav-links a{padding:8px 6px;font-size:12.5px}
+  .nav-brand span{font-size:13px}
+}
+@media (max-width:1100px){
+  .nav-links a{padding:8px 7px;font-size:12.5px}
+}
