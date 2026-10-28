@@ -21,34 +21,37 @@
       <a href="index.html#info">Course info</a>
       <a href="index.html#schedule">Schedule</a>
       <a href="index.html#module">Data Analytics Module</a>
+      <a href="analytics.html">Data Analytics in Marketing</a>
       <a href="index.html#aif">AI Foundation</a>
       <a href="code.html">Samples &amp; code</a>
       <a href="index.html#assessment">Assessment</a>
       <a href="index.html#materials">Materials</a>
       <a href="https://elysium4eva.github.io/project/" target="_blank" rel="noopener">Past projects</a>
       <a href="syllabus.html">Syllabus</a>
-      <a class="cta" href="lecture-01.html">Lecture 1 slides</a>
+      <a class="cta" href="lecture-01.html">Chapter 1 slides</a>
     </div>
   </div>
 </nav>
 
 <main class="doc">
   <div class="wrap">
-    <p class="breadcrumb"><a href="index.html">Course home</a> › <a href="index.html#module">Data Analytics Module</a> › Sample data &amp; visualisation programs</p>
+    <p class="breadcrumb"><a href="analytics.html">Data Analytics in Marketing</a> › <a href="analytics.html#code">Programs &amp; data</a> › Sample programs</p>
     <h1 class="doc-title">Sample Data &amp; Visualisation Programs</h1>
-    <p class="doc-sub">International Marketing Strategy · Companion sample page for the data analytics module: Lecture 2 “Data Types”, Lecture 3 “Data Preparation” and Lecture 4 “Data Description and Visualisation” · 2026</p>
+    <p class="doc-sub">International Marketing Strategy · Companion sample page for the data analytics module: Chapter 2 “Data Types”, Chapter 3 “Data Preparation” and Chapter 4 “Data Description and Visualisation” · 2026</p>
 
     <div class="hero-actions no-print">
-      <a class="btn btn-primary" href="#lecture02">Lecture 2 · Data Types</a>
-      <a class="btn btn-primary" href="#lecture03">Lecture 3 · Data Preparation</a>
-      <a class="btn btn-primary" href="#lecture04">Lecture 4 · Description &amp; Visualisation</a>
-      <a class="btn btn-ghost" href="files/L01-introduction-en.pdf">Slides PDF (L1)</a>
-      <a class="btn btn-ghost" href="files/L02-data-sourcing-en.pdf">Slides PDF (L2)</a>
-      <a class="btn btn-ghost" href="files/L03-data-preparation-en.pdf">Slides PDF (L3)</a>
-      <a class="btn btn-ghost" href="files/L04-description-visualization-en.pdf">Slides PDF (L4)</a>
+      <a class="btn btn-primary" href="#lecture02">Chapter 2 · Data Types</a>
+      <a class="btn btn-primary" href="#lecture03">Chapter 3 · Data Preparation</a>
+      <a class="btn btn-primary" href="#lecture04">Chapter 4 · Description &amp; Visualization</a>
+      <a class="btn btn-primary" href="#lecture05">Chapter 5 · Machine Learning</a>
+      <a class="btn btn-ghost" href="files/CH01-introduction.pdf">Slides PDF (L1)</a>
+      <a class="btn btn-ghost" href="files/CH02-data-sourcing.pdf">Slides PDF (L2)</a>
+      <a class="btn btn-ghost" href="files/CH03-data-preparation.pdf">Slides PDF (L3)</a>
+      <a class="btn btn-ghost" href="files/CH04-description-visualization.pdf">Slides PDF (L4)</a>
+      <a class="btn btn-ghost" href="files/CH05-machine-learning.pdf">Slides PDF (L5)</a>
     </div>
 
-    <h3 id="lecture02">Lecture 2 · Data Types samples (10 programs, line-by-line comments)</h3>
+    <h3 id="lecture02">Chapter 2 · Data Types samples (10 programs, line-by-line comments)</h3>
     <div class="table-wrap"><table>
       <thead><tr><th>Slide</th><th>Data type</th><th>Program (line-by-line comments)</th><th>Sample data</th></tr></thead>
       <tbody>
@@ -159,7 +162,7 @@
         <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 23 · Cross-section / time series / panel · Program <a href="code/09_datastructure_cross_time_panel.py">09_datastructure_cross_time_panel.py</a></figcaption>
       </figure>
 
-    <h3 id="lecture03">Lecture 3 · Data Preparation samples (10 programs, line-by-line comments)</h3>
+    <h3 id="lecture03">Chapter 3 · Data Preparation samples (10 programs, line-by-line comments)</h3>
     <p class="note">How to run: <code>pip install -r code/lecture03/requirements.txt</code> → <code>cd code/lecture03 &amp;&amp; python run_all.py</code>;
        samples are written to <code>data/lecture03/</code> and figures to <code>figures/lecture03/</code>. The random seed is fixed at 20260317, so every run produces exactly the same results.</p>
     <div class="table-wrap"><table>
@@ -296,8 +299,9 @@
         <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 72 · Transformation and standardisation effects · Program <a href="code/lecture03/l3_10_transform_assert.py">l3_10_transform_assert.py</a></figcaption>
       </figure>
 
-    <h3 id="lecture04">Lecture 4 · Data Description and Visualisation samples (13 programs, line-by-line comments)</h3>
-    <p class="note">How to run: <code>pip install -r code/lecture04/requirements.txt</code> → <code>cd code/lecture04 &amp;&amp; python run_all.py</code>;
+    <h3 id="lecture04">Chapter 4 · Data Description and Visualisation samples (13 programs, line-by-line comments)</h3>
+    <p class="note">How to run: <code>pip install -r code/lecture04/requirements.txt
+pip install -r code/lecture05/requirements.txt</code> → <code>cd code/lecture04 &amp;&amp; python run_all.py</code>;
        samples are written to <code>data/lecture04/</code>, figures to <code>figures/lecture04/</code> and interactive HTML to <code>figures/lecture04/interactive/</code>.
        The random seed is fixed at 20260417, so every run produces exactly the same results; everything is done in Python (no Power BI / Tableau).</p>
     <div class="table-wrap"><table>
@@ -488,7 +492,77 @@
         <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 98 · Report main figure and captions · Program <a href="code/lecture04/l4_12_report_pipeline.py">l4_12_report_pipeline.py</a></figcaption>
       </figure>
 
-    <h3>How to Run</h3>
+    <h3 id="lecture05">Chapter 5 · Introduction to Machine Learning samples (12 programs, line-by-line comments)</h3>
+    <p class="note">How to run: <code>pip install -r code/lecture05/requirements.txt</code> → <code>cd code/lecture05 &amp;&amp; python run_all.py</code>;
+       samples are read from <code>code/lecture05/data/</code> and the run logs and model card are written to <code>code/lecture05/artifacts/</code>.
+       Every script is the program shown on the corresponding code frame of the chapter.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Program (line-by-line comments)</th><th>What it demonstrates</th><th>Outputs</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="code/lecture05/l5_01_pipeline_baseline.py">l5_01_pipeline_baseline.py</a></td>
+          <td>An end-to-end scikit-learn pipeline and a baseline</td>
+          <td><span class="note">Model pipeline, baseline score, run log</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_02_cv_and_leakage.py">l5_02_cv_and_leakage.py</a></td>
+          <td>Cross-validation done right, and three ways to leak</td>
+          <td><span class="note">CV results, leakage demonstration</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_03_overfitting_curves.py">l5_03_overfitting_curves.py</a></td>
+          <td>Complexity, under/overfitting and learning curves</td>
+          <td><span class="note">Complexity table, learning curves</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_04_metrics_thresholds.py">l5_04_metrics_thresholds.py</a></td>
+          <td>Classification metrics, decision thresholds and calibration</td>
+          <td><span class="note">Threshold table, calibration curve</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_05_regularized_regression.py">l5_05_regularized_regression.py</a></td>
+          <td>OLS versus Ridge, Lasso and Elastic Net</td>
+          <td><span class="note">Coefficient paths, regression scores</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_06_knn_svm_tuning.py">l5_06_knn_svm_tuning.py</a></td>
+          <td>k-NN and SVM: decision boundaries and honest tuning</td>
+          <td><span class="note">Tuning results, boundary figures</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_07_trees_ensembles.py">l5_07_trees_ensembles.py</a></td>
+          <td>Decision trees, random forests and gradient boosting</td>
+          <td><span class="note">Ensemble scores, feature importance</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_08_pca_factors.py">l5_08_pca_factors.py</a></td>
+          <td>Principal components and latent factors on a macro panel</td>
+          <td><span class="note">PCA loadings, scores, reconstruction error</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_09_clustering.py">l5_09_clustering.py</a></td>
+          <td>k-means, hierarchical clustering and DBSCAN side by side</td>
+          <td><span class="note">Cluster labels, k-comparison table</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_10_mlp_numpy.py">l5_10_mlp_numpy.py</a></td>
+          <td>A two-layer neural network written from scratch in NumPy</td>
+          <td><span class="note">Training history, loss curve</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_11_rl_gridworld.py">l5_11_rl_gridworld.py</a></td>
+          <td>Reinforcement learning on a small grid world</td>
+          <td><span class="note">Q-learning returns, policy path</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture05/l5_12_interpretability_modelcard.py">l5_12_interpretability_modelcard.py</a></td>
+          <td>Explaining a model and documenting it</td>
+          <td><span class="note">Importance table, model card</span></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+        <h3>How to Run</h3>
     <pre style="background:#f7f3f2;border:1px solid #e3e6ea;border-radius:8px;padding:14px;overflow-x:auto;font-size:13.5px"><code># 1) Install dependencies (Python 3.8+; this course was tested with 3.9)
 pip install -r code/requirements.txt
 pip install -r code/lecture03/requirements.txt
@@ -533,10 +607,10 @@ python run_all.py</code></pre>
         <h5>Quick links</h5>
         <ul>
           <li><a href="syllabus.html">Syllabus</a></li>
-          <li><a href="lecture-01.html">Lecture 1 slides</a></li>
-          <li><a href="lecture-02.html">Module Lecture 2 slides (Data Sourcing)</a></li>
-          <li><a href="lecture-03.html">Module Lecture 3 slides (Data Preparation)</a></li>
-          <li><a href="lecture-04.html">Module Lecture 4 slides (Description and Visualization)</a></li>
+          <li><a href="lecture-01.html">Chapter 1 slides</a></li>
+          <li><a href="lecture-02.html">Chapter 2 slides (Data Sourcing)</a></li>
+          <li><a href="lecture-03.html">Chapter 3 slides (Data Preparation)</a></li>
+          <li><a href="lecture-04.html">Chapter 4 slides (Description and Visualization)</a></li>
           <li><a href="code.html">Sample data &amp; visualisation programs</a></li>
           <li><a href="syllabus.html">Syllabus (web page)</a></li>
         </ul>
