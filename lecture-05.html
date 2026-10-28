@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module Lecture 5 · Introduction to Machine Learning · International Marketing Strategy</title>
+<meta name="description" content="Data analytics module, Lecture 5 (Shenzhen University, International Marketing Strategy): introduction to machine learning — supervised and unsupervised learning, overfitting and generalisation, bias–variance, algorithm selection, neural networks and reinforcement learning.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/szu-logo.jpg">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/szu-logo.jpg" alt="Shenzhen University emblem">
+      <span>International Marketing Strategy</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#info">Course Info</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="index.html#module">Data Analytics Module</a>
+      <a href="index.html#aif">AI Foundation</a>
+      <a href="code.html">Code &amp; Data</a>
+      <a href="index.html#assessment">Assessment</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a class="cta" href="lecture-01.html">Module Lecture 1</a>
+    </div>
+  </div>
+</nav>
+
+<main class="doc">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Course home</a> › <a href="index.html#module">Data analytics module</a> › Lecture 5</p>
+    <h1 class="doc-title">Module Lecture 5 — Introduction to Machine Learning</h1>
+    <p class="doc-sub">International Marketing Strategy · Data analytics module · Shenzhen University · 2026</p>
+
+    <div class="hero-actions no-print">
+      <a class="btn btn-primary" href="files/L05-machine-learning-en.pdf">Download slides (English edition · 62 frames)</a>
+      <a class="btn btn-ghost" href="lecture-04.html">← Module Lecture 4</a>
+      <a class="btn btn-ghost" href="lecture-06.html">Module Lecture 6 →</a>
+      <a class="btn btn-gold" href="code.html">Sample data &amp; code</a>
+    </div>
+
+    <div class="grid grid-4" style="margin-top:22px">
+      <div class="card"><div class="k">Format</div><div class="v"><strong>62</strong> frames · 16:9</div></div>
+      <div class="card"><div class="k">Toolchain</div><div class="v">XeLaTeX + Beamer (SZU theme)</div></div>
+      <div class="card"><div class="k">Language</div><div class="v">English</div></div>
+      <div class="card"><div class="k">Diagrams</div><div class="v">Native TikZ / pgfplots, fully reproducible</div></div>
+    </div>
+
+    <h3>Lecture outline</h3>
+    <div class="table-wrap"><table>
+      <tbody>
+        <tr><td class="week">Part 1 · 6–24</td><td>Foundations: learning from examples rather than rules, why data/compute/algorithms changed the constraint, the ML family tree, supervised versus unsupervised tasks, deep and reinforcement learning, ML in finance and in marketing, and the contrast with econometrics (prediction versus causal inference)</td></tr>
+        <tr><td class="week">Part 2 · 25–35</td><td>Evaluating performance: generalisation, overfitting and underfitting, the bias–variance–base-error decomposition, the three-way data partition, complexity and learning curves, Occam's razor and penalisation, sampling bias, cross-validation</td></tr>
+        <tr><td class="week">Part 3 · 36–43</td><td>Supervised learning: linear and logistic baselines, CART, ensembles and random forests, k-NN and SVM, a comparison table for choosing among learners, and reading a classifier beyond accuracy (precision, recall, calibration)</td></tr>
+        <tr><td class="week">Part 4 · 44–49</td><td>Unsupervised learning: weak, semi- and self-supervision, PCA, k-means, hierarchical clustering and dendrograms, anomaly detection, and how to judge a segmentation</td></tr>
+        <tr><td class="week">Part 5 · 50–57</td><td>Networks and reinforcement: network anatomy, what a node computes, activation functions, forward propagation, backpropagation, what depth buys, the RL loop, and brand associations as a network</td></tr>
+        <tr><td class="week">Part 6 · 58–62</td><td>Practice: a checklist for reading an ML result, a minimal scikit-learn workflow, the common pitfalls (leakage, imbalance, drift), and a summary</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Learning objectives</h3>
+    <ul>
+      <li>Distinguish supervised, unsupervised, deep and reinforcement learning, and match each paradigm to the problem it fits;</li>
+      <li>Explain generalisation, overfitting and underfitting, and the bias–variance trade-off that produces them;</li>
+      <li>Describe the main supervised learners — penalised regression, SVM, k-NN, CART, ensembles and random forests — and select among them with a validation set;</li>
+      <li>Describe the main unsupervised methods — PCA, k-means, hierarchical clustering, anomaly detection — and judge a segmentation by its usefulness, not its tidiness;</li>
+      <li>Explain what a neural network computes, what depth adds, and how reinforcement learning differs from supervised learning;</li>
+      <li>Read an ML result critically: label definition, split discipline, baseline, metric and threshold, stability, and what happens when the world moves.</li>
+    </ul>
+
+    <h3>Key distinction carried through the lecture</h3>
+    <p class="note">A predictive model answers <em>what will happen</em>; a causal model answers <em>what happens if we intervene</em>. The lecture keeps both in view: out-of-sample error is the criterion for prediction, but it cannot identify an effect — that argument returns in Week 7 and in the project's identification section.</p>
+
+    <h3>Online preview</h3>
+    <p class="note no-print">If the preview does not appear in your browser, use the download button above.</p>
+    <iframe class="pdf-frame no-print" src="files/L05-machine-learning-en.pdf" title="Lecture 5 courseware"></iframe>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h5>International Marketing Strategy</h5>
+        <p style="margin:.3em 0;color:#c9d2dc">Data analytics module · Shenzhen University · 2026</p>
+      </div>
+      <div>
+        <h5>Quick links</h5>
+        <ul>
+          <li><a href="syllabus.html">Syllabus</a></li>
+          <li><a href="index.html#module">Data analytics module</a></li>
+          <li><a href="lecture-04.html">Module Lecture 4 slides</a></li>
+          <li><a href="lecture-06.html">Module Lecture 6 slides</a></li>
+          <li><a href="code.html">Sample data and code</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Dr. Xieer Dai (David)</li>
+          <li><a href="mailto:xieer.dai@szu.edu.cn">xieer.dai@szu.edu.cn</a></li>
+          <li>Office hours: Thursday 16:00–17:30</li>
+          <li>Class: Wed 14:15–15:45 · Thu 10:15–11:40 · Sifang Building South 207</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine">
+      Course home <a href="https://elysium4eva.github.io/marketing/">elysium4eva.github.io/marketing</a> ·
+      GitHub <a href="https://github.com/elysium4eva">@elysium4eva</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
