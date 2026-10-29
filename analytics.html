@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Data Analytics in Marketing · Course Home</title>
-<meta name="description" content="Data Analytics in Marketing (Shenzhen University, 2026): the English edition of the Big Data Analytics course, chapters 1-5 and 15. Six chapters, 527 frames, runnable Python programs, sample data and reproducible figures.">
+<meta name="description" content="Data Analytics in Marketing (Shenzhen University, 2026): the English edition of the Big Data Analytics course, chapters 1-5 and 15. Six chapters, 577 frames, runnable Python programs, sample data and reproducible figures.">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="assets/img/szu-logo.jpg">
 </head>
@@ -41,8 +41,8 @@
        Python programs of the Chinese original; only the language changes.</p>
     <ul class="chips">
       <li><b>6</b> chapters</li>
-      <li><b>527</b> frames</li>
-      <li><b>47</b> Python programs</li>
+      <li><b>577</b> frames</li>
+      <li><b>57</b> Python programs</li>
       <li>Python + Beamer</li>
       <li>English edition</li>
     </ul>
@@ -68,9 +68,9 @@
       <div class="card"><div class="k">Chapters</div><div class="v">1, 2, 3, 4, 5 and 15 of Big Data Analytics</div></div>
       <div class="card"><div class="k">Language</div><div class="v">English (translated from the Chinese original; content, figures and programs kept)</div></div>
       <div class="card"><div class="k">Instructor</div><div class="v">Dr. Xieer Dai (David) · xieer.dai@szu.edu.cn</div></div>
-      <div class="card"><div class="k">Format</div><div class="v">Six slide decks · 527 frames · 16:9 PDF</div></div>
+      <div class="card"><div class="k">Format</div><div class="v">Six slide decks · 577 frames · 16:9 PDF</div></div>
       <div class="card"><div class="k">Toolchain</div><div class="v">Python 3.9+ (pandas, scikit-learn, matplotlib, plotly) · XeLaTeX + Beamer</div></div>
-      <div class="card"><div class="k">Programs</div><div class="v">47 line-by-line commented scripts with sample data</div></div>
+      <div class="card"><div class="k">Programs</div><div class="v">57 line-by-line commented scripts with sample data</div></div>
       <div class="card"><div class="k">Assessment</div><div class="v">Analytics project: data work, visualisation, model, interpretation, reproducibility</div></div>
       <div class="card"><div class="k">Original course</div><div class="v"><a href="https://elysium4eva.github.io/bigdata/" target="_blank" rel="noopener">elysium4eva.github.io/bigdata</a> (Chinese)</div></div>
     </div>
@@ -148,13 +148,13 @@
       <div class="lecture is-live">
         <div class="lecture-top"><span class="num">Ch.&nbsp;15</span><h4>Big Data in Marketing</h4></div>
         <ul class="topics">
-          <li>Survey design; conjoint analysis and part-worths</li>
-          <li>Choice models, logit and the IIA problem</li>
-          <li>Hedonic regression and marketing response models</li>
+          <li>Measurement, survey error, conjoint and discrete choice</li>
+          <li>Hedonic prices, response models, journeys and attribution</li>
+          <li>Recommenders, pricing, churn, CLV and A/B experiments</li>
         </ul>
         <div class="file-links">
           <a href="lecture-06.html">Chapter page</a>
-          <a href="files/CH15-big-data-marketing.pdf">PDF (50 frames)</a>
+          <a href="files/CH15-big-data-marketing.pdf">PDF (100 frames)</a>
         </div>
       </div>
     </div>
@@ -176,7 +176,7 @@
         <tr><td class="week">3</td><td class="lec">Ch. 3 Data preparation</td><td>From raw extract to analysis table</td><td>Profiling, joins, missing data, outliers, panels</td><td><a href="code.html#lecture03">10 scripts</a></td></tr>
         <tr><td class="week">4</td><td class="lec">Ch. 4 Description &amp; visualization</td><td>Describing data and drawing it honestly</td><td>Descriptives, chart grammar, maps, dashboards</td><td><a href="code.html#lecture04">15 scripts</a></td></tr>
         <tr><td class="week">5</td><td class="lec">Ch. 5 Machine learning</td><td>Prediction done properly</td><td>Validation, regularisation, trees, PCA, clustering, MLP, RL</td><td><a href="code.html#lecture05">12 scripts</a></td></tr>
-        <tr><td class="week">6</td><td class="lec">Ch. 15 Big data in marketing</td><td>Applying the toolkit to marketing decisions</td><td>Conjoint, choice models, hedonic regression, response models</td><td>&mdash;</td></tr>
+        <tr><td class="week">6</td><td class="lec">Ch. 15 Big data in marketing</td><td>Applying the toolkit to marketing decisions</td><td>Conjoint, choice models, hedonic regression, response models</td><td><a href="code.html#lecture15">10 scripts</a></td></tr>
       </tbody>
     </table></div>
   </div>
@@ -196,13 +196,15 @@
         <tr><td class="lec">Ch. 3</td><td><code>code/lecture03/</code></td><td>10</td><td><code>data/lecture03/</code></td><td>Quality profile, join types, reshaping, cleaning pipeline, outlier rules, missing-data mechanisms and imputation, panel balance, assertions</td></tr>
         <tr><td class="lec">Ch. 4</td><td><code>code/lecture04/</code></td><td>15</td><td><code>data/lecture04/</code></td><td>Data dictionary, descriptive pass, correlation and crosstabs, chart zoo, plotly, dashboard, maps, misleading charts, uncertainty, accessibility, projections, plus the A-share treemap and distribution</td></tr>
         <tr><td class="lec">Ch. 5</td><td><code>code/lecture05/</code></td><td>12</td><td><code>code/lecture05/data/</code></td><td>Pipeline and baseline, cross-validation and leakage, learning curves, metrics and thresholds, regularised regression, k-NN and SVM, trees and ensembles, PCA and factors, clustering, a NumPy MLP, Q-learning, explanations and the model card</td></tr>
+        <tr><td class="lec">Ch. 15</td><td><code>code/lecture15/</code></td><td>10</td><td><code>data/lecture15/</code></td><td>Survey reliability and validity, conjoint design and part-worths, conditional logit and IIA, hedonic regression and response curves, funnel and four attribution rules, ALS recommender, price elasticity and optimal price, churn with an expected-loss threshold, CLV tiers, A/B power and CUPED</td></tr>
       </tbody>
     </table></div>
     <h3>How to run</h3>
     <pre><code>cd code
 pip install -r requirements.txt
 python run_all.py          # every chapter
-python lecture05/run_all.py  # Chapter 5 only</code></pre>
+python lecture05/run_all.py  # Chapter 5 only
+python lecture15/run_all.py  # Chapter 15 only</code></pre>
     <p class="note">Scripts are numbered in the order they appear in the slides
       (<code>l5_01</code> is the first code frame of Chapter 5). Each writes its outputs to the folder it
       reads from, so a re-run reproduces the figures and tables on the slides.</p>
@@ -216,7 +218,7 @@ python lecture05/run_all.py  # Chapter 5 only</code></pre>
     </div>
     <div class="grid grid-2">
       <div class="card"><div class="k">Slides</div><div class="v">Six PDF decks (16:9, XeLaTeX + Beamer, SZU theme) with English figures regenerated from the same data</div></div>
-      <div class="card"><div class="k">Programs and data</div><div class="v">47 scripts, 24 sample datasets, run logs and a model card &mdash; see the <a href="code.html">Code &amp; Data</a> page</div></div>
+      <div class="card"><div class="k">Programs and data</div><div class="v">57 scripts, 24 sample datasets, run logs and a model card &mdash; see the <a href="code.html">Code &amp; Data</a> page</div></div>
       <div class="card"><div class="k">Project</div><div class="v">One analytics project: define the question, build the table, describe and visualise, model, interpret, and make it reproducible</div></div>
       <div class="card"><div class="k">Grading criteria</div><div class="v">Data work 15% · visualisation 25% · model and validation 25% · interpretation 20% · reproducibility 15%</div></div>
       <div class="card"><div class="k">AI use</div><div class="v">Allowed with a declaration: what was used, for which step, and what you verified yourself</div></div>

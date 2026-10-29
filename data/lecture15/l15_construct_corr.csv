@@ -1,0 +1,4 @@
+﻿construct,Brand trust,Price value,Service experience
+Brand trust,1.0,0.085,0.094
+Price value,0.085,1.0,0.06
+Service experience,0.094,0.06,1.0

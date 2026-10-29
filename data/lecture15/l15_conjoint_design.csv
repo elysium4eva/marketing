@@ -1,0 +1,13 @@
+﻿profile,range,price,charging,assist
+P01,800km,180k,15min,flagship
+P02,650km,280k,20min,enhanced
+P03,800km,280k,30min,enhanced
+P04,500km,180k,30min,enhanced
+P05,650km,230k,30min,basic
+P06,500km,230k,30min,basic
+P07,500km,230k,15min,flagship
+P08,500km,180k,15min,enhanced
+P09,650km,230k,20min,basic
+P10,800km,180k,20min,flagship
+P11,650km,280k,15min,basic
+P12,800km,280k,20min,flagship

@@ -1,0 +1,13 @@
+﻿attribute,level,part_worth,range
+range,500km,-0.637,1.173
+range,650km,0.102,1.173
+range,800km,0.536,1.173
+price,180k,0.688,1.433
+price,230k,0.057,1.433
+price,280k,-0.745,1.433
+charging,30min,-0.328,0.646
+charging,20min,0.01,0.646
+charging,15min,0.318,0.646
+assist,basic,-0.415,0.747
+assist,enhanced,0.083,0.747
+assist,flagship,0.332,0.747

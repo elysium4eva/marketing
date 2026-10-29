@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chapter 6 · Big Data in Marketing · Data Analytics in Marketing</title>
-<meta name="description" content="Data analytics module, Lecture 6 (Shenzhen University, International Marketing Strategy): big data in marketing — survey design, conjoint analysis, choice models, hedonic regression and marketing response models.">
+<meta name="description" content="Data analytics module, Lecture 6 (Shenzhen University, International Marketing Strategy): big data in marketing — measurement and survey error, conjoint and discrete choice, hedonic and response models, journeys and attribution, recommenders and pricing, churn, CLV and experiments. 100 frames, 10 Python programs.">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="assets/img/szu-logo.jpg">
 </head>
@@ -37,43 +37,50 @@
     <p class="doc-sub">Data Analytics in Marketing · English edition of the Big Data Analytics course · Shenzhen University · 2026</p>
 
     <div class="hero-actions no-print">
-      <a class="btn btn-primary" href="files/CH15-big-data-marketing.pdf">Download slides (English edition · 50 frames)</a>
+      <a class="btn btn-primary" href="files/CH15-big-data-marketing.pdf">Download slides (English edition · 100 frames)</a>
       <a class="btn btn-ghost" href="lecture-05.html">← Chapter 5</a>
       
-      <a class="btn btn-gold" href="code.html">Sample data &amp; code</a>
+      <a class="btn btn-gold" href="code.html#lecture15">10 Python programs</a>
     </div>
 
     <div class="grid grid-4" style="margin-top:22px">
-      <div class="card"><div class="k">Format</div><div class="v"><strong>50</strong> frames · 16:9</div></div>
+      <div class="card"><div class="k">Format</div><div class="v"><strong>100</strong> frames · 16:9 · 7 sections</div></div>
       <div class="card"><div class="k">Toolchain</div><div class="v">XeLaTeX + Beamer (SZU theme)</div></div>
       <div class="card"><div class="k">Language</div><div class="v">English</div></div>
-      <div class="card"><div class="k">Diagrams</div><div class="v">Native TikZ / pgfplots, fully reproducible</div></div>
+      <div class="card"><div class="k">Figures</div><div class="v">14 regenerated from the same Python programs</div></div>
     </div>
 
     <h3>Chapter outline</h3>
     <div class="table-wrap"><table>
       <tbody>
-        <tr><td class="week">Part 1 · 5–13</td><td>Survey design: what survey methodology is, inference and representativeness, the anatomy of a survey, four kinds of question, survey error and cost, the seven methodological decisions, modes of administration and mode effects</td></tr>
-        <tr><td class="week">Part 2 · 14–23</td><td>Conjoint analysis: what it does, part-worths and market-share models, the four design steps (study type, attributes, levels, fractional-factorial questionnaire), a worked laptop example, reading part-worths, advantages and disadvantages</td></tr>
-        <tr><td class="week">Part 3 · 24–37</td><td>Choice models: discrete versus continuous choice, random utility and McFadden, individual versus aggregate demand data, an applied NEV-subsidy example, binomial and multinomial models, the choice set, logit probabilities, utility, binary and multinomial examples, the IIA problem and the models that relax it</td></tr>
-        <tr><td class="week">Part 4 · 38–42</td><td>Hedonic regression: the decomposition logic, real-estate valuation, the hedonic equation and quality-adjusted price indices, platform data sources (Lianjia, Airbnb, Booking/Ctrip), applications beyond real estate</td></tr>
-        <tr><td class="week">Part 5 · 43–47</td><td>Response models: what a response model is, the three questions it answers, four insights (concavity, elasticity, allocation, competition), the concave response curve, and budget allocation by equalising marginal return</td></tr>
-        <tr><td class="week">Part 6 · 48–50</td><td>Practice: reading these models critically (identifying variation, substitution assumptions, counterfactual range) and a summary</td></tr>
+        <tr><td class="week">Part 1 · 2–20</td><td>Marketing data and measurement: the four questions of marketing analytics, five data sources, questionnaire design (from question to item, item types and wording traps), probability and non-probability sampling, modes of administration and mode effects, reliability, validity, measurement error and common method bias, non-response and weighting — ending on the error chain that sets the ceiling for everything later</td></tr>
+        <tr><td class="week">Part 2 · 21–40</td><td>Conjoint analysis and discrete choice: valuing the bundle, the four design steps, full-factorial versus orthogonal versus D-optimal designs, effect coding and part-worths, individual-level preferences and their limits; then why choice models beat ratings, the three kinds of choice data, random utility and the logit derivation, binary and multinomial logit, the IIA problem with nested and mixed logit, an EV-policy example, and how a badly built choice set corrupts the coefficients</td></tr>
+        <tr><td class="week">Part 3 · 41–52</td><td>Hedonic prices and response models: decomposing a product into attributes, the semi-log specification, a housing regression with a quantile check, three uses of hedonic prices; then marketing spend to sales response, four functional forms, adstock carryover, promotion response split into baseline and increment, and what the three models share</td></tr>
+        <tr><td class="week">Part 4 · 53–64</td><td>Consumer data, journeys and attribution: clickstream sessions and the funnel, CRM and RFM, the five-stage journey, the four heuristic attribution rules and why last click is overrated, Shapley and Markov attribution on one dataset, privacy after the cookie, identity resolution and privacy-enhancing technologies</td></tr>
+        <tr><td class="week">Part 5 · 65–76</td><td>Recommendation, pricing and promotion: recommender problem definition and evaluation, collaborative filtering, matrix factorisation and ALS, precision@k, sparsity and cold start, deep and sequential models; then price elasticity, log-log estimation and profit-maximising price, discount, coupon and threshold mechanics, and the ethics and compliance of price discrimination</td></tr>
+        <tr><td class="week">Part 6 · 77–90</td><td>Churn, CLV and experiments: defining churn and its label window, the expected-loss threshold and its ROC, three ways to compute CLV, retention curves and discounting, the value × churn four-quadrant matrix, A/B design, two-proportion tests, power curves, CUPED, the difference between lift and increment, marketing-mix models and causality, and what changed in 2026</td></tr>
+        <tr><td class="week">Part 7 · 91–100</td><td>Tools, glossary and close: the tool stack, a marketing data and compliance checklist, ten common mistakes, the links to the four projects, an 85-term glossary, references, a one-page recap, ten self-check questions and a wrap-up</td></tr>
       </tbody>
     </table></div>
 
     <h3>Learning objectives</h3>
     <ul>
-      <li>Design a survey that supports inference — population, frame, instrument, mode, weighting — and name the main sources of survey error;</li>
-      <li>Run a conjoint study end to end: choose the study type, specify attributes and levels, build a fractional-factorial design, and interpret part-worths;</li>
+      <li>Design a survey and a measurement instrument that support inference — population, frame, item wording, mode, weighting — and separate reliability from validity;</li>
+      <li>Run a conjoint study end to end: choose the study type, specify attributes and levels, build a fractional-factorial or D-optimal design, and interpret part-worths and attribute importance;</li>
       <li>Explain random utility, write the logit choice probability, derive willingness to pay, and state what the IIA assumption rules out;</li>
-      <li>Estimate a hedonic price equation and use it to construct a quality-adjusted price index;</li>
-      <li>Read a response model: recognise concavity, read elasticity, and allocate a budget by equalising marginal return per yuan;</li>
-      <li>Judge when each of the five methods is the right tool — and when the available variation cannot support it.</li>
+      <li>Estimate a hedonic price equation, read semi-elasticities, and use the fit to build a quality-adjusted price index;</li>
+      <li>Build a funnel, split credit across touchpoints with heuristic and data-driven attribution, and say why the split is a decision rule rather than a measurement;</li>
+      <li>Evaluate a recommender with the right metric, estimate price elasticity, and set a price or a promotion that maximises contribution rather than revenue;</li>
+      <li>Define churn and CLV operationally, choose a cost-weighted decision threshold, and design an experiment with enough power — then check incrementality rather than trusting the lift;</li>
+      <li>Judge when each method is the right tool, and when the available variation cannot support it.</li>
     </ul>
 
+    <h3>Programs and figures</h3>
+    <p class="note">All fourteen figures in this deck are generated by ten commented Python programs, run from a single seed, so every number on a slide can be reproduced.
+      They are listed on the <a href="code.html#lecture15">Code &amp; Data</a> page under Chapter 15.</p>
+
     <h3>Why this lecture matters for the project</h3>
-    <p class="note">The final project requires at least one quantitative method with an explicit design. This lecture supplies the five candidates — survey, conjoint, choice model, hedonic regression, response model — and, more importantly, the habit of stating the identifying variation before reporting the estimate.</p>
+    <p class="note">The final project requires at least one quantitative method with an explicit design. This lecture supplies the candidates — survey, conjoint, choice model, hedonic regression, response model, attribution, recommender, elasticity, churn model, CLV, A/B test — and, more importantly, the habit of stating the identifying variation before reporting the estimate.</p>
 
     <h3>Online preview</h3>
     <p class="note no-print">If the preview does not appear in your browser, use the download button above.</p>

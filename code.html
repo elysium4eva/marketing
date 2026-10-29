@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sample Data &amp; Visualisation Programs · International Marketing Strategy</title>
-<meta name="description" content="Shenzhen University, International Marketing Strategy: runnable sample data and visualisation programs for the data analytics module (Lecture 2 data types, Lecture 3 data preparation, Lecture 4 data description and visualisation).">
+<meta name="description" content="Shenzhen University, International Marketing Strategy: runnable sample data, visualisation and modelling programs for the data analytics module (Chapters 2-5 and 15): data types, data preparation, description and visualisation, machine learning, and the marketing methods from conjoint to CLV.">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="assets/img/szu-logo.jpg">
 
@@ -37,18 +37,20 @@
   <div class="wrap">
     <p class="breadcrumb"><a href="analytics.html">Data Analytics</a> › <a href="analytics.html#code">Programs &amp; data</a> › Sample programs</p>
     <h1 class="doc-title">Sample Data &amp; Visualisation Programs</h1>
-    <p class="doc-sub">International Marketing Strategy · Companion sample page for the data analytics module: Chapter 2 “Data Types”, Chapter 3 “Data Preparation” and Chapter 4 “Data Description and Visualisation” · 2026</p>
+    <p class="doc-sub">International Marketing Strategy · Companion sample page for the data analytics module: Chapter 2 “Data Types”, Chapter 3 “Data Preparation”, Chapter 4 “Data Description and Visualisation”, Chapter 5 “Machine Learning” and Chapter 15 “Big Data in Marketing” · 2026</p>
 
     <div class="hero-actions no-print">
       <a class="btn btn-primary" href="#lecture02">Chapter 2 · Data Types</a>
       <a class="btn btn-primary" href="#lecture03">Chapter 3 · Data Preparation</a>
       <a class="btn btn-primary" href="#lecture04">Chapter 4 · Description &amp; Visualization</a>
       <a class="btn btn-primary" href="#lecture05">Chapter 5 · Machine Learning</a>
+      <a class="btn btn-primary" href="#lecture15">Chapter 15 · Big Data in Marketing</a>
       <a class="btn btn-ghost" href="files/CH01-introduction.pdf">Slides PDF (L1)</a>
       <a class="btn btn-ghost" href="files/CH02-data-sourcing.pdf">Slides PDF (L2)</a>
       <a class="btn btn-ghost" href="files/CH03-data-preparation.pdf">Slides PDF (L3)</a>
       <a class="btn btn-ghost" href="files/CH04-description-visualization.pdf">Slides PDF (L4)</a>
       <a class="btn btn-ghost" href="files/CH05-machine-learning.pdf">Slides PDF (L5)</a>
+      <a class="btn btn-ghost" href="files/CH15-big-data-marketing.pdf">Slides PDF (L6)</a>
     </div>
 
     <h3 id="lecture02">Chapter 2 · Data Types samples (10 programs, line-by-line comments)</h3>
@@ -562,7 +564,73 @@ pip install -r code/lecture05/requirements.txt</code> → <code>cd code/lecture0
       </tbody>
     </table></div>
 
-        <h3>How to Run</h3>
+    <h3 id="lecture15">Chapter 15 · Big Data in Marketing samples (10 programs, line-by-line comments)</h3>
+    <p class="note">How to run: <code>pip install -r code/lecture15/requirements.txt</code> → <code>python code/lecture15/run_all.py</code>;
+       every sample is generated inside <code>_common_l15.py</code> from one seed, so the run reproduces all fourteen figures and
+       every number quoted on the slides. Figures land in <code>figures/lecture15/</code>, tables and logs in <code>data/lecture15/artifacts/</code>.
+       Run <code>run_all.py</code> rather than a single script: the scripts share one random stream, so running one in isolation
+       shifts the draws of everything after it.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Program (line-by-line comments)</th><th>What it demonstrates</th><th>Outputs</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="code/lecture15/l15_01_survey_reliability.py">l15_01_survey_reliability.py</a></td>
+          <td>A 600-respondent Likert survey: Cronbach's alpha per construct, exploratory factor analysis, discriminant validity, and the survey error chain</td>
+          <td><span class="note">fig_survey_structure, fig_error_chain, reliability tables</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_02_conjoint.py">l15_02_conjoint.py</a></td>
+          <td>A balanced conjoint design for four vehicle attributes, effect coding, part-worths from 300 respondents and attribute importance</td>
+          <td><span class="note">fig_conjoint_design, fig_conjoint_utility, part-worth table</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_03_choice_logit.py">l15_03_choice_logit.py</a></td>
+          <td>Conditional logit by maximum likelihood, recovery of the true coefficients, marginal effects and the IIA check</td>
+          <td><span class="note">fig_logit_curves, coefficient and marginal-effect tables</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_04_hedonic.py">l15_04_hedonic.py</a></td>
+          <td>A log-linear hedonic price model on 1,200 housing transactions with a quantile check, plus advertising and promotion response curves with adstock</td>
+          <td><span class="note">fig_hedonic_coefs, fig_response_curve, semi-elasticities</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_05_clickstream.py">l15_05_clickstream.py</a></td>
+          <td>A 6,000-session clickstream: the five-stage funnel, RFM scoring, and last-click, first-click, linear and time-decay attribution on one dataset</td>
+          <td><span class="note">fig_funnel, fig_attribution, attribution split table</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_06_recommender.py">l15_06_recommender.py</a></td>
+          <td>Matrix factorisation with a hand-written alternating-least-squares loop, precision@k against a held-out set, and the cold-start limit</td>
+          <td><span class="note">fig_recommender, sparsity and evaluation tables</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_07_pricing.py">l15_07_pricing.py</a></td>
+          <td>Log-log own-price elasticity from weekly data, the profit-maximising price, the Lerner check, and promotion lift separated from baseline</td>
+          <td><span class="note">fig_price_elasticity, elasticity and price tables</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_08_churn.py">l15_08_churn.py</a></td>
+          <td>Logistic regression and gradient boosting on 3,000 customers, ROC and AUC comparison, and an expected-loss threshold rather than a default cut-off</td>
+          <td><span class="note">fig_churn_threshold, AUC and cost-curve tables</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_09_clv.py">l15_09_clv.py</a></td>
+          <td>Retention curves for four tiers, CLV with a monthly discount rate, the sensitivity of the answer to that rate, and value tiers</td>
+          <td><span class="note">fig_clv_curves, CLV tier table</span></td>
+        </tr>
+        <tr>
+          <td><a href="code/lecture15/l15_10_experiment.py">l15_10_experiment.py</a></td>
+          <td>A two-proportion z-test with a confidence interval, the power curve against sample size, MDE, and CUPED variance reduction</td>
+          <td><span class="note">fig_power_curve, test and power tables</span></td>
+        </tr>
+      </tbody>
+    </table></div>
+    <figure style="margin:22px 0 0">
+      <a href="figures/lecture15/fig_attribution.png"><img src="figures/lecture15/fig_attribution.png" alt="One dataset, four attribution splits, from the Chapter 15 attribution program" style="width:100%;border:1px solid #e3e6ea;border-radius:8px;background:#fff"></a>
+      <figcaption style="margin-top:8px;font-size:14px;color:#66717d">Frame 61 · One dataset, four attribution splits · Program <a href="code/lecture15/l15_05_clickstream.py">l15_05_clickstream.py</a></figcaption>
+    </figure>
+
+    <h3>How to Run</h3>
     <pre style="background:#f7f3f2;border:1px solid #e3e6ea;border-radius:8px;padding:14px;overflow-x:auto;font-size:13.5px"><code># 1) Install dependencies (Python 3.8+; this course was tested with 3.9)
 pip install -r code/requirements.txt
 pip install -r code/lecture03/requirements.txt
@@ -578,9 +646,18 @@ python run_all.py
 
 # 4) Lecture 4: descriptive statistics and visualisation samples (line-by-line comments)
 cd ../lecture04
+python run_all.py
+
+# 5) Lecture 5: machine learning samples (line-by-line comments)
+cd ../lecture05
+python run_all.py
+
+# 6) Lecture 15: big data in marketing samples (line-by-line comments)
+cd ../lecture15
 python run_all.py</code></pre>
-    <p class="note">All three lectures use fixed random seeds (L2 20260917, L3 20260317, L4 20260417),
-       so every run produces <b>exactly the same</b> samples and figures. The provincial boundary file for Lecture 4 is downloaded
+    <p class="note">Every lecture uses a fixed random seed (L2 20260917, L3 20260317, L4 20260417, L5 20260506, L15 20261216),
+       so a run produces <b>exactly the same</b> samples and figures. Lecture 15 draws all of its samples from
+       <b>one shared random stream</b>: run <code>run_all.py</code>, not a single script, or the numbers after that script shift. The provincial boundary file for Lecture 4 is downloaded
        automatically on first run and cached to <code>data/lecture04/china_provinces.geojson</code>; if the network is unavailable,
        the map falls back to a centroid bubble map and the pipeline still runs to completion.</p>
 
